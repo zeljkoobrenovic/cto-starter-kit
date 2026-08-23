@@ -1,0 +1,37 @@
+.gitignore
+  s_bb78ea3e5e1d17::t_a389c0a2c16cc5 1-5
+_config/controls/engineering_controls.json
+  s_bb78ea3e5e1d17::t_37b4c31c8fc205 1-2136
+_config/controls/management_controls.json
+  s_bb78ea3e5e1d17::t_303df21dd10905 1-1319
+_config/controls/operational_controls.json
+  s_bb78ea3e5e1d17::t_123e873a8e839e 1-1124
+_config/controls/security_controls.json
+  s_bb78ea3e5e1d17::t_dfd2e3667ea52e 1-1799
+_config/docs/start/index.html
+  s_bb78ea3e5e1d17::t_2f05418e8d4a86 1-716
+_config/start/apps.json
+  s_bb78ea3e5e1d17::t_c5adfbfa1d3238 1-1406
+_templates/start/index.html
+  s_bb78ea3e5e1d17::t_f7a079344b6eb5 1-767
+_wiring/start/generate-docs.py
+  s_bb78ea3e5e1d17::t_34d9e2113f0873 1-95
+docs/start/index.html
+  s_bb78ea3e5e1d17::t_bf2ca7ed91b367 1-767
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "51cbffdc78e541566feadf22125baf3f3f779877",
+  "prompts": {},
+  "sessions": {
+    "s_bb78ea3e5e1d17": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37c1fd6c-5c7d-4c4a-898b-c8394cafee38",
+        "model": "unknown"
+      },
+      "human_author": "Zeljko Obrenovic <zeljkoobrenovic@yahoo.com>"
+    }
+  }
+}
