@@ -1,0 +1,1406 @@
+{
+  "config": {
+    "openInNewTab": true,
+    "enableSearch": true,
+    "domainName": "CTO Starter Kit",
+    "domainDescription": "Index of key data, guidelines, and strategic documents."
+  },
+  "apps": [
+    {
+      "tab": "First 90 Days",
+      "steps": [
+        {
+          "group": "Align and Communicate Guiding Principles",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html",
+          "logo": "images/pexels-compass-8828681.jpg",
+          "description": "Engineering Executive: First 90 Days. The first quarter is a learning quarter — every step below follows from these five principles.",
+          "steps": [
+            {
+              "name": "Communicate that you will prioritize learning over early change",
+              "description": "Early changes made without context are usually wrong; the first quarter's output is understanding.",
+              "tools": [
+                {
+                  "name": "first 90 days intro",
+                  "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html",
+                  "icon": "icons/introduction.png"
+                }
+              ]
+            },
+            {
+              "name": "Understand systems before modifying them",
+              "description": "Every system encodes history; what looks broken often solves a problem you cannot see yet.",
+              "tools": [
+                {
+                  "name": "sokrates.dev source code analysis tool",
+                  "link": "https://en.wikipedia.org/wiki/Systems_thinking",
+                  "icon": "icons/sokrates.png"
+                },
+                {
+                  "name": "lightweight data explorers for dashboards",
+                  "link": "https://zeljkoobrenovic.github.io/lightweight-data-explorers/start/index.html",
+                  "icon": "icons/explorers.png"
+                }
+              ]
+            },
+            {
+              "name": "Communicate that you will focus on durable improvements, not visible quick wins",
+              "description": "Quick wins impress briefly; durable improvements still matter a year later.",
+              "tools": []
+            },
+            {
+              "name": "Build trust before conflict",
+              "description": "You will need to spend trust on hard calls later; bank it before drawing on it.",
+              "tools": []
+            },
+            {
+              "name": "Move slower than your instincts tell you",
+              "description": "New executives almost always overestimate what they understand; deliberate pace prevents unforced errors.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "1. Clarify Expectations",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist",
+          "logo": "images/pexels-dartboard-6758919.jpg",
+          "description": "Week 1–2.",
+          "steps": [
+            {
+              "name": "Ask your manager to write explicit expectations for your role",
+              "how": "CEO/CTO",
+              "description": "Written expectations expose misalignment now, not at your first review.",
+              "tools": []
+            },
+            {
+              "name": "Ask: \"What will success look like in 6–12 months?\"",
+              "description": "The answer tells you what your manager actually values, beyond the job description.",
+              "tools": []
+            },
+            {
+              "name": "Identify any urgent, dire issues needing immediate attention",
+              "description": "The learning quarter has exceptions; genuine fires must be found and triaged in week one.",
+              "tools": []
+            },
+            {
+              "name": "Align on measurable goals for your first 90 days",
+              "description": "Agreed goals protect your learning period from shifting expectations.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "2. Understand the Business",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist",
+          "logo": "images/pexels-coins-12920750.jpg",
+          "steps": [
+            {
+              "name": "Understand how the business makes money",
+              "description": "Every engineering priority call eventually traces back to the revenue model.",
+              "tools": [
+                {
+                  "name": "Product Strategy",
+                  "link": "https://zeljkoobrenovic.github.io/grounded-product-architecture/start-packages/overview/index.html",
+                  "icon": "icons/grounded-product.png"
+                },
+                {
+                  "name": "Revenue Streams",
+                  "link": "https://docs.google.com/presentation/d/1ATQsR1rUS9tV2Hry5fvnhaj0K0ePPDlMPdfQAmYrLQc/edit?usp=sharing",
+                  "icon": "icons/revenue-streams.png"
+                }
+              ]
+            },
+            {
+              "name": "Know where money is spent and the current financial runway",
+              "description": "Runway determines how much patience the company can afford for long-term work.",
+              "tools": [
+                {
+                  "name": "Budget",
+                  "link": "https://zeljkoobrenovic.github.io/lightweight-data-explorers/data-explorers/budget/index.html",
+                  "icon": "icons/budget.png"
+                }
+              ]
+            },
+            {
+              "name": "Identify what must be true in 12 months for step-function growth",
+              "description": "This tells you where engineering leverage matters most.",
+              "tools": []
+            },
+            {
+              "name": "Identify knowledge gaps between Engineering and the business",
+              "description": "Where engineers do not understand the business, effort silently drifts away from impact.",
+              "tools": [
+                {
+                  "name": "Product Strategy",
+                  "link": "https://zeljkoobrenovic.github.io/grounded-product-architecture/start-packages/overview/index.html",
+                  "icon": "icons/grounded-product.png"
+                }
+              ]
+            },
+            {
+              "name": "Learn the company's core domain deeply",
+              "description": "Domain fluency is what turns you from a service provider into a strategic peer.",
+              "tools": [
+                {
+                  "name": "Product Strategy",
+                  "link": "https://zeljkoobrenovic.github.io/grounded-product-architecture/start-packages/overview/index.html",
+                  "icon": "icons/grounded-product.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "group": "3. Build Relationships & Trust",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist",
+          "logo": "images/pexels-handshake-8939052.jpg",
+          "steps": [
+            {
+              "name": "Go on a listening tour",
+              "how": "listening & visibility",
+              "description": "Meet individuals and teams before forming opinions; people remember who listened first.",
+              "tools": []
+            },
+            {
+              "name": "Meet cross-functional peers and stakeholders",
+              "how": "listening & visibility",
+              "description": "Their view of Engineering is data you cannot get from inside the org.",
+              "tools": []
+            },
+            {
+              "name": "Set up recurring 1:1s",
+              "how": "listening & visibility",
+              "description": "With directs and skip-levels; the recurring slot matters more than any single agenda.",
+              "tools": []
+            },
+            {
+              "name": "Share weekly or monthly updates on what you're learning",
+              "how": "listening & visibility",
+              "description": "Sharing what you are learning builds trust while making no premature commitments.",
+              "tools": []
+            },
+            {
+              "name": "Attend routine forums before changing them",
+              "how": "listening & visibility",
+              "description": "You cannot judge a meeting's value from its description; sit in it first.",
+              "tools": []
+            },
+            {
+              "name": "Shadow support tickets",
+              "how": "customer & external perspective",
+              "description": "Support tickets show the product's real failure modes, unfiltered.",
+              "tools": []
+            },
+            {
+              "name": "Shadow customer/partner meetings",
+              "how": "customer & external perspective",
+              "description": "Hearing customers directly beats every internal summary of what customers want.",
+              "tools": []
+            },
+            {
+              "name": "Observe user testing sessions",
+              "how": "customer & external perspective",
+              "description": "Watching real users struggle recalibrates what 'working software' means.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "4. Learn How Work Gets Done",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist",
+          "logo": "images/pexels-gears-29268627.jpg",
+          "steps": [
+            {
+              "name": "Map how ideas become shipped work",
+              "description": "The gap between the official process and the real one is where problems hide.",
+              "tools": []
+            },
+            {
+              "name": "Understand how work is assigned and prioritized",
+              "description": "Whoever actually sets priorities holds power the org chart may not show.",
+              "tools": []
+            },
+            {
+              "name": "Identify who handles emergencies",
+              "description": "Emergency paths reveal your true key people — and your bus-factor risks.",
+              "tools": []
+            },
+            {
+              "name": "Determine whether execution systems are working and scaling",
+              "description": "Systems that barely cope today will break at the next doubling.",
+              "tools": []
+            },
+            {
+              "name": "Identify internal Engineering velocity metrics",
+              "description": "You need a baseline before you can claim — or measure — any improvement.",
+              "tools": []
+            },
+            {
+              "name": "Identify external/business impact metrics",
+              "description": "Velocity means nothing if it is not moving a business number.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "5. Understand Organizational Health",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist",
+          "logo": "images/pexels-seedling-771319.jpg",
+          "steps": [
+            {
+              "name": "Assess team morale and inclusion",
+              "description": "Morale problems compound quietly and surface as regretted attrition.",
+              "tools": []
+            },
+            {
+              "name": "Identify who is succeeding and who isn't — and why",
+              "description": "The 'why' distinguishes individual issues from broken systems around people.",
+              "tools": []
+            },
+            {
+              "name": "Document undocumented processes",
+              "description": "Writing down tribal knowledge tests whether it is real — and protects against departures.",
+              "tools": []
+            },
+            {
+              "name": "Spot-check compensation and inclusion health",
+              "description": "Compensation inequities are cheapest to fix before they become attrition or legal risk.",
+              "tools": []
+            },
+            {
+              "name": "Pay attention to non-product engineering roles",
+              "how": "e.g. TPM, SRE",
+              "description": "These roles hold the org together but are easy to overlook from the top.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "6. Understand the Technology",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist",
+          "logo": "images/pexels-servers-5480781.jpg",
+          "steps": [
+            {
+              "name": "Evaluate whether the existing tech stack is effective",
+              "description": "Judge the stack against the business's needs, not your personal preferences.",
+              "tools": []
+            },
+            {
+              "name": "Identify major friction points",
+              "description": "Daily friction costs more than dramatic incidents; engineers know where it is — ask.",
+              "tools": []
+            },
+            {
+              "name": "Learn how major technical decisions are made",
+              "description": "Decision paths show whether architecture is designed or accreted.",
+              "tools": []
+            },
+            {
+              "name": "Build and deploy a small, trivial change yourself",
+              "description": "Nothing reveals the developer experience like living it once.",
+              "tools": []
+            },
+            {
+              "name": "Join an on-call rotation",
+              "how": "as an observer if needed",
+              "description": "On-call shows the system's real reliability and the toll it takes on people.",
+              "tools": []
+            },
+            {
+              "name": "Attend incident reviews",
+              "description": "Incident reviews expose both system weaknesses and the culture around failure.",
+              "tools": []
+            },
+            {
+              "name": "Document the technology history and context behind decisions",
+              "description": "Today's odd architecture is usually yesterday's rational trade-off; know it before judging.",
+              "tools": []
+            },
+            {
+              "name": "Document the implicit Engineering strategy",
+              "description": "The org already has a strategy in its actions; writing it down is the first step to changing it.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "7. Understand & Improve Hiring",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist",
+          "logo": "images/pexels-interview-5439141.jpg",
+          "steps": [
+            {
+              "name": "Review hiring funnel metrics and pipeline",
+              "description": "The funnel shows whether your problem is sourcing, evaluation, or closing.",
+              "tools": []
+            },
+            {
+              "name": "Establish a recurring recruiting meeting",
+              "how": "weekly/biweekly",
+              "description": "A standing rhythm keeps hiring moving without your constant attention.",
+              "tools": []
+            },
+            {
+              "name": "Shadow interviews and onboarding",
+              "description": "Seeing the candidate experience firsthand shows the bar and brand you actually project.",
+              "tools": []
+            },
+            {
+              "name": "Identify 1–3 highest-priority missing roles",
+              "description": "A short list focuses recruiting capacity where it changes the org's trajectory.",
+              "tools": []
+            },
+            {
+              "name": "Personally help close top candidates",
+              "description": "For key candidates, an executive call is often what tips the decision.",
+              "tools": []
+            },
+            {
+              "name": "Evaluate whether the hiring process needs an overhaul",
+              "description": "Decide deliberately whether to fix or rebuild before hiring scales further.",
+              "tools": []
+            },
+            {
+              "name": "Kick off Engineering brand efforts",
+              "how": "blog, talks, social presence",
+              "description": "Brand work takes months to pay off, so the seeds go in early.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "8. Make the Right (Limited) Changes",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist",
+          "logo": "images/pexels-chess-10388905.jpg",
+          "steps": [
+            {
+              "name": "Limit early changes to 1–2 high-leverage improvements",
+              "description": "Few and finished beats many and abandoned — every change spends scarce trust.",
+              "tools": []
+            },
+            {
+              "name": "Avoid disrupting systems without a working alternative",
+              "description": "A flawed working system still beats a better one that does not exist yet.",
+              "tools": []
+            },
+            {
+              "name": "Consider adding a weekly operational review",
+              "description": "One high-leverage change most orgs lack: a regular look at the numbers together.",
+              "tools": []
+            },
+            {
+              "name": "Evaluate org structure for execution impediments",
+              "description": "Note structural problems now; reorganize only once you understand the people.",
+              "tools": []
+            },
+            {
+              "name": "Plan next year's org growth",
+              "how": "size, roles, transitions",
+              "description": "Growth planned early avoids reactive hiring and rushed promotions later.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "9. Learn Through Reflection",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist",
+          "logo": "images/pexels-notebook-3278757.jpg",
+          "steps": [
+            {
+              "name": "Follow a \"20–40 rule\" for problem-solving before asking for help",
+              "description": "Wrestling with problems yourself builds context; asking after a set time caps the waste.",
+              "tools": []
+            },
+            {
+              "name": "Create a regular thinking space to slow down",
+              "description": "Unscheduled thinking time is where scattered observations become judgment.",
+              "tools": []
+            },
+            {
+              "name": "Avoid rushing to judgment without context",
+              "description": "First impressions in a new org are hypotheses to test, not conclusions.",
+              "tools": []
+            },
+            {
+              "name": "Avoid referencing \"how we did it at my last job\"",
+              "description": "The phrase erodes credibility even when the idea is right; translate, do not cite.",
+              "tools": []
+            },
+            {
+              "name": "Write down what you're learning",
+              "description": "Writing exposes gaps in your understanding and becomes your strategy's raw material.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "10. Build External Support",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist",
+          "logo": "images/pexels-climbers-2609459.jpg",
+          "steps": [
+            {
+              "name": "Build a peer support group of similar leaders",
+              "description": "Some problems can only be discussed with peers outside your company.",
+              "tools": [
+                {
+                  "name": "CTO Craft",
+                  "link": "https://ctocraft.com/",
+                  "icon": "icons/cto-craft.png"
+                },
+                {
+                  "name": "Chief Architect leaders",
+                  "link": "https://chiefarchitectnetwork.com/",
+                  "icon": "icons/can.png"
+                }
+              ]
+            },
+            {
+              "name": "Consider engaging an executive coach",
+              "description": "A coach provides the candid, disinterested feedback your org cannot give you.",
+              "tools": []
+            },
+            {
+              "name": "Create space for self-care",
+              "how": "sleep, exercise, therapy, hobbies",
+              "description": "The role is a marathon; recovery capacity is part of the job.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "11. Protect Long-Term Sustainability",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist",
+          "logo": "images/pexels-stones-289586.jpg",
+          "steps": [
+            {
+              "name": "Assess whether team pace is sustainable",
+              "description": "A pace that needs heroics is not a pace; it is a countdown to attrition.",
+              "tools": []
+            },
+            {
+              "name": "Identify energy drains",
+              "how": "for you and the team",
+              "description": "Naming the drains is the prerequisite to removing them.",
+              "tools": []
+            },
+            {
+              "name": "Add energizing practices deliberately",
+              "description": "Energy is managed by design, not by waiting for a quieter quarter.",
+              "tools": []
+            },
+            {
+              "name": "Avoid burnout cycles early",
+              "description": "Burnout patterns set in the first months tend to become the permanent culture.",
+              "tools": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tab": "First Year",
+      "steps": [
+        {
+          "group": "Turn Learning into Direction",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/index.html",
+          "logo": "images/pexels-signpost-14697954.jpg",
+          "description": "Engineering Executive: Months 4–12. Convert the diagnosis from your first quarter into strategy, systems, and a team you trust — every step below follows from these principles.",
+          "steps": [
+            {
+              "name": "Convert your 90-day diagnosis into a written strategy",
+              "description": "Your first-quarter learning only pays off once it becomes explicit direction others can act on.",
+              "tools": []
+            },
+            {
+              "name": "Build key operating systems that run without you in the room",
+              "description": "Hiring, planning, and meetings should work through owners and cadences, not your constant presence.",
+              "tools": []
+            },
+            {
+              "name": "Limit concurrent major initiatives — finish and prove value before starting more",
+              "description": "A few completed, visible wins build more trust than many half-finished changes.",
+              "tools": []
+            },
+            {
+              "name": "Separate decisions: financial plan first, then allocation, then roadmap",
+              "description": "Debating everything at once creates chaos; sequencing keeps each debate small and resolvable.",
+              "tools": []
+            },
+            {
+              "name": "Keep durable constraints steady; change narrowly and intentionally",
+              "description": "Stable budgets and allocations let teams plan; when change is needed, change one thing with a stated reason.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "1. Write the Engineering Strategy",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/engineering-strategy.html",
+          "logo": "images/pexels-lighthouse-1535162.jpg",
+          "description": "Months 4–6.",
+          "steps": [
+            {
+              "name": "Write the strategy document yourself",
+              "how": "diagnosis → guiding policies → coherent actions",
+              "description": "Delegating the writing signals delegated ownership; the diagnosis and trade-offs must be yours.",
+              "tools": []
+            },
+            {
+              "name": "Build the diagnosis from the roadmap, financials, and survey data; validate it with skeptics",
+              "description": "A strategy built on a wrong diagnosis fails no matter how good the policies are.",
+              "tools": []
+            },
+            {
+              "name": "Document resource allocation, fundamental rules, and decision rights explicitly",
+              "description": "These three policy areas decide most day-to-day conflicts before they reach you.",
+              "tools": []
+            },
+            {
+              "name": "Test every policy against three checks",
+              "how": "applicable, enforced, leverage-creating",
+              "description": "A policy that fails any of the three checks is a slogan, not a strategy.",
+              "tools": []
+            },
+            {
+              "name": "Iterate drafts with a working group of 3–5 trusted stakeholders before socializing widely",
+              "description": "Early private iteration surfaces flaws cheaply and creates allies for the launch.",
+              "tools": []
+            },
+            {
+              "name": "Launch with a ~1-week feedback window; review impact after ~2 months; refresh annually",
+              "description": "A defined feedback and review rhythm keeps the strategy alive instead of shelfware.",
+              "tools": []
+            },
+            {
+              "name": "If company strategy is undocumented, write down your best understanding of it",
+              "description": "Engineering strategy must anchor to something; even an informal summary beats guessing.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "2. Run Deliberate Planning & Budgeting",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/planning.html",
+          "logo": "images/pexels-calculator-209224.jpg",
+          "description": "Aligned with the fiscal-year cycle.",
+          "steps": [
+            {
+              "name": "Run planning as three separated phases",
+              "how": "financial plan → portfolio allocation → roadmap",
+              "description": "Each phase settles constraints for the next, keeping debates small and decisions durable.",
+              "tools": []
+            },
+            {
+              "name": "Segment costs into headcount, production, and development",
+              "how": "with Finance",
+              "description": "Different cost types grow for different reasons and need different levers.",
+              "tools": []
+            },
+            {
+              "name": "Model the org structure before requesting headcount; check the plan against recruiting capacity",
+              "description": "Headcount you can't recruit or absorb is a plan on paper only.",
+              "tools": []
+            },
+            {
+              "name": "Set steady allocation percentages and keep them stable",
+              "how": "e.g. product / infra / dev-ex",
+              "description": "Steady allocation lets teams commit; constant rebalancing destroys momentum.",
+              "tools": []
+            },
+            {
+              "name": "Reserve a fixed validation budget for exploratory work",
+              "description": "Unscoped ideas need a protected lane; never compare their raw potential against scoped work.",
+              "tools": []
+            },
+            {
+              "name": "Agree the roadmap in open sessions with Product and Design — outcomes first, projects second",
+              "description": "Open sessions prevent 1:1 side deals; outcome framing leaves teams room to solve.",
+              "tools": []
+            },
+            {
+              "name": "List vendor renewal deadlines for the year; check usage vs. contract before each negotiation",
+              "description": "Leverage in vendor negotiations comes from time and usage data, not urgency.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "3. Measure What You Will Use",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/measuring-engineering-organizations.html",
+          "logo": "images/pexels-measuring-tape-5383194.jpg",
+          "steps": [
+            {
+              "name": "Run one measurement initiative at a time; start with metrics that feed real decisions",
+              "description": "Small, useful wins build trust in data; a big measurement program invites resistance.",
+              "tools": []
+            },
+            {
+              "name": "Stand up operational metrics",
+              "how": "incidents, downtime, latency, cost per business metric",
+              "description": "These are the health signals customers and the board will ask about first.",
+              "tools": []
+            },
+            {
+              "name": "Instrument delivery lead time and deployment frequency; survey developer experience",
+              "how": "e.g. SPACE",
+              "description": "System metrics show throughput; survey data shows the friction behind it.",
+              "tools": []
+            },
+            {
+              "name": "Set an explicit rule with managers: optimization metrics improve systems, never rate individuals",
+              "description": "The moment metrics judge people, people start gaming the metrics.",
+              "tools": []
+            },
+            {
+              "name": "Agree one clear goal with the CEO and board, tied to business strategy, and report against it",
+              "description": "One legible goal beats a dashboard of engineering internals nobody upstairs can parse.",
+              "tools": []
+            },
+            {
+              "name": "Review the data weekly; compare month-over-month and quarter-over-quarter trends",
+              "description": "Regular review builds intuition for what is normal, so anomalies stand out early.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "4. Gel Your Leadership Team",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/gelling-your-engineering-leadership-team.html",
+          "logo": "images/pexels-rowing-3754647.jpg",
+          "steps": [
+            {
+              "name": "Decide who is on the long-term team; make personnel changes quickly",
+              "description": "Slow personnel decisions freeze team dynamics; clarity resets them.",
+              "tools": []
+            },
+            {
+              "name": "Write down how the team decides, disagrees, and escalates; call out violations immediately",
+              "description": "Values only exist if defection is refereed consistently — for everyone.",
+              "tools": []
+            },
+            {
+              "name": "Establish team rituals",
+              "how": "weekly leadership meeting, update cadence, escalation paths",
+              "description": "Predictable structure carries information and decisions without depending on heroics.",
+              "tools": []
+            },
+            {
+              "name": "Set explicit expectations: every leader builds a strong team and works peer-to-peer, not in silos",
+              "description": "You are building leaders of leaders; escalated peer conflicts should be exceptions.",
+              "tools": []
+            },
+            {
+              "name": "Write a personal README covering your working style and decision philosophy",
+              "description": "The team wastes months guessing how to work with you; write it down instead.",
+              "tools": []
+            },
+            {
+              "name": "Address signs of peer competition in 1:1s before they harden",
+              "description": "Competition for scope turns a leadership team zero-sum; name it early.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "5. Establish the Operating Cadence",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/meetings.html",
+          "logo": "images/pexels-metronome-7220729.jpg",
+          "steps": [
+            {
+              "name": "Require a written document — not slides — for every recurring review meeting",
+              "description": "Documents force clear thinking and let the meeting be discussion, not presentation.",
+              "tools": []
+            },
+            {
+              "name": "Schedule the weekly core: leadership meeting, tech spec review, incident review",
+              "description": "These three carry execution, technical quality, and learning from failure.",
+              "tools": []
+            },
+            {
+              "name": "Add the monthly forums: managers meeting, Staff+ meeting, org-wide Q&A",
+              "description": "Monthly forums develop leaders and give everyone direct access to you.",
+              "tools": []
+            },
+            {
+              "name": "Hold weekly 1:1s with directs; cap skip-levels at a fixed time budget",
+              "how": "e.g. 1–2 hours/week",
+              "description": "1:1s are the primary support channel; the cap keeps skip-levels from crowding out core work.",
+              "tools": []
+            },
+            {
+              "name": "Assign an owner to every recurring meeting; cancel any that stop adding value",
+              "description": "Ownerless meetings decay into ritual; each should survive a 'would we cancel this?' test.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "6. Communicate Predictably",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/internal-communication.html",
+          "logo": "images/pexels-megaphone-3851254.jpg",
+          "steps": [
+            {
+              "name": "Send a short, predictable update to the org even in quiet weeks",
+              "how": "weekly or biweekly",
+              "description": "The steady drip builds trust and makes big announcements land in context.",
+              "tools": []
+            },
+            {
+              "name": "Package every big announcement",
+              "how": "tl;dr, who is affected, actions, dates, canonical source",
+              "description": "A standard packet ensures nobody misses what changed, who is affected, and what to do.",
+              "tools": []
+            },
+            {
+              "name": "Have a trusted reviewer read significant messages before you broadcast them",
+              "description": "A reviewer catches confusing wording, unintended tone, and missing context cheaply.",
+              "tools": []
+            },
+            {
+              "name": "Repeat major messages across every channel",
+              "how": "email, chat, team meetings, all-hands",
+              "description": "Nobody reads every channel; repetition is how a message actually reaches the org.",
+              "tools": []
+            },
+            {
+              "name": "Before replying to executive feedback, restate the underlying concern and confirm you got it right",
+              "description": "Feedback often carries a deeper worry — speed, risk, priority; answer that, not the surface detail.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "7. Build the Hiring Machine",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/hiring.html",
+          "logo": "images/pexels-join-team-3127883.jpg",
+          "steps": [
+            {
+              "name": "Document hiring loops, interview rubrics, and a written leveling framework",
+              "description": "Documentation turns hiring from personal heroics into a system others can run.",
+              "tools": []
+            },
+            {
+              "name": "Standardize compensation with clear in-band / out-of-band approval rules",
+              "description": "Consistent offers protect fairness and stop every negotiation escalating to you.",
+              "tools": []
+            },
+            {
+              "name": "Review monthly metrics",
+              "how": "hires per recruiter, time to hire, offer and acceptance rates",
+              "description": "A monthly look at the funnel shows where the machine is jammed before quarters are lost.",
+              "tools": []
+            },
+            {
+              "name": "Keep time-to-offer within ~2 weeks; require a high bar for adding interview steps",
+              "description": "Speed wins candidates; every added step costs more than the signal it usually adds.",
+              "tools": []
+            },
+            {
+              "name": "Join sell calls to personally help close senior and strategic candidates",
+              "description": "Executive attention is often the deciding factor for senior hires.",
+              "tools": []
+            },
+            {
+              "name": "Train hiring managers; set decision deadlines and intervene on unicorn requirements",
+              "description": "Most hiring failures are manager behaviors — indecision, impossible requirements — not pipeline problems.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "8. Launch Engineering Onboarding",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/engineering-onboarding.html",
+          "logo": "images/pexels-open-door-8276599.jpg",
+          "steps": [
+            {
+              "name": "Appoint an onboarding orchestrator with real time allocated",
+              "how": "≥20 hours/month",
+              "description": "Without a named owner with real hours, onboarding decays into a slide deck.",
+              "tools": []
+            },
+            {
+              "name": "Start with three sessions: values & strategy, architecture overview, dev-environment setup",
+              "description": "The worst programs come from trying too hard; start simple and practical.",
+              "tools": []
+            },
+            {
+              "name": "Give every new hire a buddy and a personalized team-level plan",
+              "description": "Daily buddy check-ins in the first weeks catch friction the manager never sees.",
+              "tools": []
+            },
+            {
+              "name": "Measure time-to-productivity and satisfaction; survey new hires after 1 month",
+              "description": "Fresh hires see your org's gaps most clearly — capture that before it fades.",
+              "tools": []
+            },
+            {
+              "name": "Review results and iterate quarterly; scale the investment to your hiring rate",
+              "description": "A structured program pays off around 5–10 hires/month; below that, keep it lightweight.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "9. Define Values & Calibrate Standards",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/organizational-values.html",
+          "logo": "images/pexels-scale-6077961.jpg",
+          "steps": [
+            {
+              "name": "Test every proposed value: reversible, applicable, honest",
+              "description": "A good value is a real choice another company could invert, usable in trade-offs, and true today.",
+              "tools": []
+            },
+            {
+              "name": "Drop values that describe aspiration, not today's behavior — change behavior first, then write it down",
+              "description": "Aspirational values read as hypocrisy; documented reality builds credibility.",
+              "tools": []
+            },
+            {
+              "name": "Pilot values with small groups, then integrate them into hiring, promotions, and 1:1s",
+              "description": "Values that never appear in decisions and promotions are just posters.",
+              "tools": []
+            },
+            {
+              "name": "List where your personal standards exceed what the org supports; pick the few gaps worth the fight",
+              "description": "Silently compensating for standards nobody shares is the fast path to burnout.",
+              "tools": []
+            },
+            {
+              "name": "Spread higher standards in three steps",
+              "how": "model one practice visibly → document it → offer it to teams",
+              "description": "Role modeling spreads standards further than mandates — and shows which teams opt in.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "10. Secure Executive Support",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/working-with-your-ceo-peers-and-engineering.html",
+          "logo": "images/pexels-bridge-1485894.jpg",
+          "steps": [
+            {
+              "name": "Rate each peer relationship — supported, tolerated, or resented — and book 1:1s where it isn't “supported”",
+              "description": "You cannot succeed while merely tolerated; name the weak relationships and work them.",
+              "tools": []
+            },
+            {
+              "name": "When a peer criticizes Engineering, verify the claim with your team before acting on it",
+              "description": "Criticism is often a symptom of a broader issue; fix the root cause, not the accusation.",
+              "tools": []
+            },
+            {
+              "name": "When functions clash, write down each side's view and propose one company-first synthesis",
+              "description": "The integrating narrative is usually yours to write; function-first framing loses allies.",
+              "tools": []
+            },
+            {
+              "name": "After exec meetings, ask one peer: “what could I have done better?”",
+              "description": "Small, specific feedback requests build the alignment habit and show visible improvement.",
+              "tools": []
+            },
+            {
+              "name": "Resolve stuck disagreements with structured escalation",
+              "how": "agree to resolve within 5 days",
+              "description": "A time-boxed process converts endless re-litigating into a decision everyone commits to.",
+              "tools": []
+            },
+            {
+              "name": "Filter major decisions with: “what maximizes company impact over the next 3 years?”",
+              "description": "The long-horizon test separates company-first calls from turf defense.",
+              "tools": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tab": "Long Term",
+      "steps": [
+        {
+          "group": "Lead for the Long Run",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/index.html",
+          "logo": "images/pexels-road-19708273.jpg",
+          "description": "Engineering Executive: Year 2 and beyond. Shift from building systems to inspecting and evolving them — durable disciplines rather than one-off projects.",
+          "steps": [
+            {
+              "name": "Shift from building systems to inspecting and evolving them",
+              "description": "Year two's risk is not missing systems — it is systems quietly degrading unobserved.",
+              "tools": []
+            },
+            {
+              "name": "Judge process and judgment quality, not just outcomes",
+              "description": "Outcomes are noisy; rewarding lucky bets teaches bad decision-making.",
+              "tools": []
+            },
+            {
+              "name": "Commit to operating models for years; change intentionally, not reactively",
+              "description": "Organizations absorb change slowly; fads cost more than imperfect but stable models.",
+              "tools": []
+            },
+            {
+              "name": "Invest in assets that compound: trust, people, network, reputation",
+              "description": "These assets take years to build and pay off precisely when you need them most.",
+              "tools": []
+            },
+            {
+              "name": "Protect your energy — this is a decade game, not a quarter game",
+              "description": "Sustained impact requires a work mix you can sustain, not maximum output.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "1. Practice Inspected Trust",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/inspected-trust.html",
+          "logo": "images/pexels-magnifier-4494642.jpg",
+          "steps": [
+            {
+              "name": "For every delegated area, define how you will independently verify progress",
+              "description": "Delegation without verification is not trust — it is abdication.",
+              "tools": []
+            },
+            {
+              "name": "Evaluate decisions on process quality, separately from outcomes — reward good process after bad outcomes",
+              "description": "Punishing good errors and rewarding bad successes optimizes for luck.",
+              "tools": []
+            },
+            {
+              "name": "Run weekly or monthly metric forums; don't rely on quarterly-only reviews",
+              "description": "Quarterly-only reviews find problems a quarter late.",
+              "tools": []
+            },
+            {
+              "name": "When a concern surfaces, go directly to the people doing the work",
+              "how": "learning spikes",
+              "description": "Summarized narratives filter out exactly the context you need.",
+              "tools": []
+            },
+            {
+              "name": "Chase down confusing reports or metrics immediately — persistent confusion is a trust risk",
+              "description": "Ambiguity compounds; what confuses you today misleads decisions tomorrow.",
+              "tools": []
+            },
+            {
+              "name": "Invite others to inspect your own work; run a quarterly self-check on where you rely on trust alone",
+              "description": "Reciprocal inspection proves it is support, not suspicion.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "2. Master All Three Leadership Styles",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/leadership-styles.html",
+          "logo": "images/pexels-conductor-12240911.jpg",
+          "steps": [
+            {
+              "name": "Use policy for recurring decisions that need consistency",
+              "how": "codify → validate → roll out → review",
+              "description": "Written policy lets the organization move without you in the room.",
+              "tools": []
+            },
+            {
+              "name": "Use consensus when context is distributed and buy-in matters",
+              "how": "framing doc, deadline, senior owner",
+              "description": "When no one holds the full picture, the process of being heard is part of the answer.",
+              "tools": []
+            },
+            {
+              "name": "Use conviction for high-stakes, divisive, or stalled decisions",
+              "how": "write reasoning, pressure-test, decide",
+              "description": "Sometimes the org needs a decision more than it needs agreement.",
+              "tools": []
+            },
+            {
+              "name": "Once a month, handle one real decision with your weakest style and debrief it",
+              "description": "Fluency in all three styles is built by deliberate practice, not preference.",
+              "tools": []
+            },
+            {
+              "name": "Once a quarter, check whether you default to one style out of habit",
+              "description": "Company context shifts — growth, downturn, scale — and your default should shift with it.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "3. Evolve Processes Deliberately",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/run-engineering-processes.html",
+          "logo": "images/pexels-clockwork-34182727.jpg",
+          "steps": [
+            {
+              "name": "Identify which process-ownership pattern you run today",
+              "how": "startup → baseline → specialized → embedded → local",
+              "description": "You cannot evolve a model you have not named.",
+              "tools": []
+            },
+            {
+              "name": "Before adding process roles, fix execution within the current pattern",
+              "description": "Most 'we need a TPM org' moments are really under-execution of the baseline.",
+              "tools": []
+            },
+            {
+              "name": "Rotate process ownership and tie it to promotion criteria",
+              "how": "e.g. 6-month rotations",
+              "description": "Rotation prevents burnout and makes process work career-relevant instead of a tax.",
+              "tools": []
+            },
+            {
+              "name": "Run a budget reality check before moving up the cost curve — only do it during growth",
+              "description": "Specialized roles are hard to fund and harder to unwind in a downturn.",
+              "tools": []
+            },
+            {
+              "name": "Commit to the chosen model for 3–4 years; write down the beliefs behind it",
+              "description": "Documented beliefs are the antidote to process fads.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "4. Evolve Org & Architecture Together",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/four-fundamental-team-topologies.html",
+          "logo": "images/pexels-blocks-9822733.jpg",
+          "steps": [
+            {
+              "name": "Design team boundaries and target architecture together",
+              "how": "Conway's Law",
+              "description": "Your org chart will ship itself; design boundaries to produce the architecture you want.",
+              "tools": []
+            },
+            {
+              "name": "Classify every team as stream-aligned, platform, enabling, or complicated-subsystem",
+              "description": "Vague 'support' or 'ops' teams accumulate work no one designed them for.",
+              "tools": []
+            },
+            {
+              "name": "Size teams for cognitive load",
+              "how": "5–9 people, one complex domain per team",
+              "description": "A team owning more than it can understand slows down every domain it touches.",
+              "tools": []
+            },
+            {
+              "name": "Write down every team-to-team interaction mode; time-box collaboration, then move to X-as-a-Service",
+              "description": "Unbounded collaboration is a smell; stable boundaries should become services.",
+              "tools": []
+            },
+            {
+              "name": "Diagnose each team's state and apply the matching fix",
+              "how": "falling behind → add people; treading water → cut WIP; repaying debt → add time; innovating → keep slack",
+              "description": "Each state needs a different intervention; adding people is right for only one of them.",
+              "tools": []
+            },
+            {
+              "name": "Reorganize only for structural problems, and only with a gapless ownership map",
+              "description": "Reorgs are expensive; run one only when process and culture levers cannot fix it.",
+              "tools": []
+            },
+            {
+              "name": "Refresh succession plans yearly; review team boundaries every few months",
+              "description": "Boundaries and key-person risk drift silently; regular review catches both.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "5. Onboard Peer Executives Well",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/onboarding-peer-executives.html",
+          "logo": "images/pexels-coffee-3874031.jpg",
+          "steps": [
+            {
+              "name": "Align with the CEO on what the new executive's 90-day success looks like",
+              "description": "Shared success criteria prevent the new peer being judged by shifting expectations.",
+              "tools": []
+            },
+            {
+              "name": "Transfer your mental map in their first 2 weeks",
+              "how": "data, urgent problems, power map, culture",
+              "description": "Your context — where data lives, who really influences what — saves them months.",
+              "tools": []
+            },
+            {
+              "name": "Each write the other's role expectations independently, then compare and reconcile",
+              "description": "Accidental role misalignment surfaces now, instead of in a conflict later.",
+              "tools": []
+            },
+            {
+              "name": "Agree conflict handling and an escalation path before you need them",
+              "description": "Rules agreed in peacetime hold up under pressure.",
+              "tools": []
+            },
+            {
+              "name": "Hold a weekly structured 1:1 plus regular non-transactional time",
+              "description": "Deep working sessions plus real rapport make peer partnerships durable.",
+              "tools": []
+            },
+            {
+              "name": "Give candid feedback in the first 3–6 months, before missteps compound",
+              "description": "Mediocre-but-pleasant executives can linger for years; early candor is the kindness.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "6. Build Prestige Deliberately",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/personal-and-organizational-prestige.html",
+          "logo": "images/pexels-trophy-10815750.jpg",
+          "steps": [
+            {
+              "name": "Run the need check first: can you hire senior people and start the interviews you want?",
+              "description": "If opportunities already flow, minimal investment is the right amount.",
+              "tools": []
+            },
+            {
+              "name": "Pick one timeless topic grounded in real experience; expect to discard 2–3 drafts",
+              "description": "One deep, durable piece outperforms a stream of shallow content.",
+              "tools": []
+            },
+            {
+              "name": "Publish as a blog post or conference talk; ask 5–10 peers to share it",
+              "description": "Small formats iterate fast and leave a permanent, discoverable artifact.",
+              "tools": []
+            },
+            {
+              "name": "Host everything on a personal site linked from your profiles",
+              "description": "Prestige works through easy discoverability when someone looks you up.",
+              "tools": []
+            },
+            {
+              "name": "Timebox the effort; judge it by mentions in interviews and inbound opportunities, not pageviews",
+              "description": "Followers and traffic are vanity here; the goal is quiet familiarity among people who matter.",
+              "tools": []
+            },
+            {
+              "name": "Showcase the org's most interesting engineering problems in occasional thoughtful content",
+              "description": "Organizational prestige compounds hiring; meaningful problems attract senior people.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "7. Cultivate Your Network",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/your-network.html",
+          "logo": "images/pexels-network-5511447.jpg",
+          "steps": [
+            {
+              "name": "Meet ~1 new person per month; keep a simple list and follow up periodically",
+              "description": "A modest steady rhythm compounds into a real network; bursts do not.",
+              "tools": []
+            },
+            {
+              "name": "After receiving help, close the loop: report back what you did and what worked",
+              "description": "Closing the loop is what turns a favor into a relationship.",
+              "tools": []
+            },
+            {
+              "name": "Use the network for what it's best at",
+              "how": "benchmarks, vendor pricing, sensitive advice, backchannels",
+              "description": "Some questions — compensation, org sizing, backchannels — can only be answered peer-to-peer.",
+              "tools": []
+            },
+            {
+              "name": "Keep cold outreach to 2–4 sentences with one specific question",
+              "description": "Specific, answerable asks get replies; 'can we chat?' does not.",
+              "tools": []
+            },
+            {
+              "name": "Run or join a small curated peer circle with a code of conduct",
+              "description": "Sensitive executive topics need small, private, high-trust rooms.",
+              "tools": []
+            },
+            {
+              "name": "Build recruiter, founder, and VC relationships before you need them",
+              "description": "A network built during a job search is too late; build it from strength.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "8. Be Ready for M&A",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/mergers-and-acquisitions.html",
+          "logo": "images/pexels-puzzle-269399.jpg",
+          "steps": [
+            {
+              "name": "Write the M&A strategy with the executive team before any deal appears",
+              "description": "Deal pressure is the worst time to decide what kinds of deals make sense.",
+              "tools": []
+            },
+            {
+              "name": "For each deal, write the thesis: what must be true for it to make sense",
+              "description": "Explicit assumptions give due diligence something to confirm or kill.",
+              "tools": []
+            },
+            {
+              "name": "Run the engineering evaluation across seven areas",
+              "how": "implementation, IP, security, compliance, integration, costs, culture",
+              "description": "Read actual source code and audit reports; what you are buying is rarely what is pitched.",
+              "tools": []
+            },
+            {
+              "name": "Write the integration plan before closing",
+              "how": "stack, timeline, teams, reporting lines",
+              "description": "Integration cost decides whether the thesis holds; plan it before the price is set.",
+              "tools": []
+            },
+            {
+              "name": "Apply the final test: “would I still approve if I had to personally run the integration?”",
+              "description": "If the answer is no, the deal's real costs are being carried by someone else on paper.",
+              "tools": []
+            }
+          ]
+        },
+        {
+          "group": "9. Sustain Your Energy",
+          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/managing-energy.html",
+          "logo": "images/pexels-athlete-1840437.jpg",
+          "steps": [
+            {
+              "name": "List what energizes you — and ask each of your leaders to do the same",
+              "description": "You cannot manage a mix you have not named.",
+              "tools": []
+            },
+            {
+              "name": "Schedule some energizing work into everyone's mix",
+              "how": "small and orthogonal — never opposed to company goals",
+              "description": "Energizing work is fuel, not indulgence — as long as it never works against company goals.",
+              "tools": []
+            },
+            {
+              "name": "Run a weekly reflection: what energized me, what drained me, is this sustainable for 12+ months?",
+              "description": "Five minutes weekly catches burnout trends months before they become crises.",
+              "tools": []
+            },
+            {
+              "name": "Sanity-check gray-area side work with a trusted peer",
+              "description": "Uncertainty about whether work is aligned is itself the warning sign.",
+              "tools": []
+            },
+            {
+              "name": "If imbalance persists for ~a year, change your work mix, role, or environment",
+              "description": "Chronic depletion does not self-correct; a year is the threshold for acting.",
+              "tools": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tab": "Tools",
+      "apps": [
+        {
+          "group": "product",
+          "apps": [
+            {
+              "name": "Grounded Product Architecture",
+              "link": "https://zeljkoobrenovic.github.io/grounded-product-architecture/start-packages/overview/index.html",
+              "icon": "https://zeljkoobrenovic.github.io/grounded-product-architecture/start-packages/overview/icons/logo.png",
+              "description": "spec-driven, customer-centric, implementation-aware product architecture",
+              "source": ""
+            }
+          ]
+        },
+        {
+          "group": "tech data",
+          "apps": [
+            {
+              "name": "Sokrates",
+              "link": "https://www.sokrates.dev/",
+              "icon": "https://www.sokrates.dev/assets/logo.png",
+              "description": "a pragmatic, inexpensive way to extract rich data from your source code repositories",
+              "source": ""
+            },
+            {
+              "name": "Lightweight Data Explorers &amp; Dashboards",
+              "link": "https://zeljkoobrenovic.github.io/lightweight-data-explorers/start/index.html",
+              "icon": "https://zeljkoobrenovic.github.io/lightweight-data-explorers/start/icons/logo.png",
+              "description": "a static-site toolkit for small dashboards, data explorers, controls pages, and standards",
+              "source": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tab": "Playbooks",
+      "apps": [
+        {
+          "group": "checklist",
+          "description": "playbooks for setting direction: engineering leadership and product strategy",
+          "apps": [
+            {
+              "name": "Checklists",
+              "link": "https://obren.io/home#checklists",
+              "icon": "icons/coaching.png",
+              "description": "coaching prompts and checklists",
+              "source": ""
+            }
+          ]
+        },
+        {
+          "group": "strategic",
+          "description": "playbooks for setting direction: engineering leadership and product strategy",
+          "apps": [
+            {
+              "name": "Engineering Executive",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/index.html",
+              "icon": "icons/executive.png",
+              "description": "my playbook for engineering executives",
+              "source": ""
+            },
+            {
+              "name": "Product Management",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-product-management/index.html",
+              "icon": "icons/product-management.png",
+              "description": "my playbook for product development",
+              "source": ""
+            }
+          ]
+        },
+        {
+          "group": "management",
+          "description": "playbooks for the day-to-day craft of managing people and engineering teams",
+          "apps": [
+            {
+              "name": "People Management Tools",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-people-management-tools/index.html",
+              "icon": "icons/people-management.png",
+              "description": "my playbook for people development",
+              "source": ""
+            },
+            {
+              "name": "Engineering Management",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-management/index.html",
+              "icon": "icons/engineering-management.png",
+              "description": "my playbook for engineering development",
+              "source": ""
+            }
+          ]
+        },
+        {
+          "group": "tech strategy",
+          "description": "playbooks for technology strategy topics, starting with platforms",
+          "apps": [
+            {
+              "name": "Grounded Architecture",
+              "link": "https://grounded-architecture.io/",
+              "icon": "icons/grounded-architecture.png",
+              "description": "redefining IT architecture practice",
+              "source": ""
+            },
+            {
+              "name": "Platform Engineering",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-platforms/index.html",
+              "icon": "icons/grounded-platforms.png",
+              "description": "my playbook for platform engineering",
+              "source": ""
+            },
+            {
+              "name": "Defensive Security",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-security/index.html",
+              "icon": "icons/grounded-security.png",
+              "description": "my playbook for platform engineering",
+              "source": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
