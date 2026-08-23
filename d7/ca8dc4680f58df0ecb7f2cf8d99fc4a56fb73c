@@ -1,0 +1,19 @@
+docs/index.html
+  s_a9f716f82387ce::t_27bb16154b7930 10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "d7ca8dc4680f58df0ecb7f2cf8d99fc4a56fb73c",
+  "prompts": {},
+  "sessions": {
+    "s_a9f716f82387ce": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e93c5f2a-3a45-4ad7-bce4-5e4c3f2533f1",
+        "model": "unknown"
+      },
+      "human_author": "Zeljko Obrenovic <zeljkoobrenovic@yahoo.com>"
+    }
+  }
+}
