@@ -3,7 +3,7 @@
     "openInNewTab": true,
     "enableSearch": true,
     "domainName": "CTO Starter Kit",
-    "domainDescription": "Index of key data, guidelines, and strategic documents."
+    "domainDescription": "Everything a new CTO needs — from day one to long term. Based on <a target='_blank' href='https://obren.io'>obren.io</a> free, open-source resources. Fork it on <a target='_blank' href='https://github.com/zeljkoobrenovic/cto-starter-kit'>GitHub</a>."
   },
   "apps": [
     {
