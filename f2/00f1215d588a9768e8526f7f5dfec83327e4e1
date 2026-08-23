@@ -1,0 +1,35 @@
+.claude/skills/build/SKILL.md
+  s_a9f716f82387ce::t_17a743cdded9ef 1-32
+README.md
+  s_a9f716f82387ce::t_c8e14e4b9d7f19 1-57
+.claude/skills/edit-start-page/SKILL.md
+  s_a9f716f82387ce::t_a8af4de91517e5 1-23
+CLAUDE.md
+  s_a9f716f82387ce::t_bc7b1f147c2b16 1-38
+.claude/skills/edit-controls/SKILL.md
+  s_a9f716f82387ce::t_14473ba83cd5ff 1-38
+_config/start/README.md
+  s_a9f716f82387ce::t_75ca2e59f2d602 1-78
+_config/controls/README.md
+  s_a9f716f82387ce::t_cd6e4d87ac0938 1-71
+.claude/skills/publish/SKILL.md
+  s_a9f716f82387ce::t_4a8f53565d1e60 1-18
+docs/index.html
+  s_a9f716f82387ce::t_5c42c6befd937d 1-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "f200f1215d588a9768e8526f7f5dfec83327e4e1",
+  "prompts": {},
+  "sessions": {
+    "s_a9f716f82387ce": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e93c5f2a-3a45-4ad7-bce4-5e4c3f2533f1",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Zeljko Obrenovic <zeljkoobrenovic@yahoo.com>"
+    }
+  }
+}
