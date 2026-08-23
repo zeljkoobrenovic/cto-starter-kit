@@ -1,0 +1,21 @@
+_config/start/apps.json
+  s_a9f716f82387ce::t_6e57cf59584580 6
+docs/start/index.html
+  s_a9f716f82387ce::t_e34a9be8501c36 463,482
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "c2f9fa36142b714c3f4ee5b91a85732cea0145c8",
+  "prompts": {},
+  "sessions": {
+    "s_a9f716f82387ce": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e93c5f2a-3a45-4ad7-bce4-5e4c3f2533f1",
+        "model": "unknown"
+      },
+      "human_author": "Zeljko Obrenovic <zeljkoobrenovic@yahoo.com>"
+    }
+  }
+}
