@@ -1,0 +1,16 @@
+_config/start/apps.json
+  h_32d60cd4daf66e 53-59,179-185,197-208
+docs/start/index.html
+  h_32d60cd4daf66e 486
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "0abe2bd2bbaf7e21cb5496a3114694ffe4d46403",
+  "prompts": {},
+  "humans": {
+    "h_32d60cd4daf66e": {
+      "author": "Zeljko Obrenovic <zeljkoobrenovic@yahoo.com>"
+    }
+  }
+}
