@@ -50,7 +50,13 @@
             {
               "name": "Build trust before conflict",
               "description": "You will need to spend trust on hard calls later; bank it before drawing on it.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "trust-building checklists",
+                  "link": "https://obren.io/checklists/docs/index.html?filter=trust",
+                  "icon": "icons/trust.png"
+                }
+              ]
             },
             {
               "name": "Move slower than your instincts tell you",
@@ -170,7 +176,13 @@
               "name": "Set up recurring 1:1s",
               "how": "listening & visibility",
               "description": "With directs and skip-levels; the recurring slot matters more than any single agenda.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "1:1 Meeting Template",
+                  "link": "https://docs.google.com/document/d/1g42YFA7swaYej7RUuj1guluiDdP0rFmnrcee7egmXNs/edit?usp=sharing",
+                  "icon": "icons/meeting.png"
+                }
+              ]
             },
             {
               "name": "Share weekly or monthly updates on what you're learning",
@@ -182,7 +194,18 @@
               "name": "Attend routine forums before changing them",
               "how": "listening & visibility",
               "description": "You cannot judge a meeting's value from its description; sit in it first.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Meetings",
+                  "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/meetings.html",
+                  "icon": "icons/meeting.png"
+                },
+                {
+                  "name": "checklist",
+                  "link": "https://docs.google.com/document/d/1g42YFA7swaYej7RUuj1guluiDdP0rFmnrcee7egmXNs/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                }
+              ]
             },
             {
               "name": "Shadow support tickets",
