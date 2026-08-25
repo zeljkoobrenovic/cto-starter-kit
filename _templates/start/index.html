@@ -164,15 +164,24 @@
         }
 
         .step-group-link {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
             font-size: 12px;
             line-height: 1;
             color: #5009DC;
             border: 1px solid #c9b6f5;
             border-radius: 12px;
-            padding: 5px 12px;
+            padding: 4px 12px 4px 6px;
             background-color: white;
             transition: background-color 0.15s ease, color 0.15s ease;
+        }
+
+        .step-group-link-icon {
+            width: 16px;
+            height: 16px;
+            object-fit: contain;
+            border-radius: 3px;
         }
 
         .step-group-link:hover {
@@ -319,8 +328,8 @@
         }
 
         .step-icon {
-            max-height: 42px;
-            max-width: 100px;
+            max-height: 32px;
+            max-width: 32px;
             object-fit: contain;
             border-radius: 4px;
         }
@@ -649,12 +658,20 @@
         html += '<div class="step-group-title" title="Collapse / expand this section">' + title + '</div>';
         html += '<button class="step-group-toggle" type="button" data-key="' + encodeURIComponent(collapseKey) + '" title="Collapse / expand this section">&#9662;</button>';
         html += '</div>';
-        // `links` is [{label, href}]; a legacy string `link` becomes one chip.
-        const groupLinks = stepGroup.links || (stepGroup.link ? [{label: 'Guide', href: stepGroup.link}] : []);
+        // `links` is [{name, link, icon, description}] (legacy {label, href}
+        // still accepted); a legacy string `link` becomes one chip. Missing
+        // icons fall back to icons/link.png; `description` shows on mouse over.
+        const groupLinks = stepGroup.links || (stepGroup.link ? [{name: 'guide', link: stepGroup.link}] : []);
         if (groupLinks.length) {
             html += '<div class="step-group-links">';
             groupLinks.forEach(l => {
-                html += '<a class="step-group-link" ' + (newTab ? 'target="_blank" ' : '') + 'href="' + l.href + '">' + escapeAttr(l.label || l.href) + '</a>';
+                const linkHref = l.link || l.href;
+                const linkName = l.name || l.label || linkHref;
+                const linkIcon = l.icon || 'icons/link.png';
+                const linkTip = l.description ? ' title="' + escapeAttr(l.description) + '"' : '';
+                html += '<a class="step-group-link" ' + (newTab ? 'target="_blank" ' : '') + 'href="' + linkHref + '"' + linkTip + '>' +
+                    '<img class="step-group-link-icon" src="' + linkIcon + '" onerror="this.src=\'icons/link.png\'; this.onerror=null;" alt="">' +
+                    escapeAttr(linkName) + '</a>';
             });
             html += '</div>';
         }

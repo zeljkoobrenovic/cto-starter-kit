@@ -32,7 +32,9 @@ Each entry in `apps` is a tab, in one of two shapes:
   "steps": [
     {
       "group": "Align and Communicate Guiding Principles",  // section heading
-      "link": "https://…",           // optional link for the group itself
+      "links": [                     // optional links for the group, shown as chips
+        { "name": "guide", "link": "https://…", "icon": "icons/….png", "description": "…" }  // icon optional (defaults to icons/link.png); description optional, shown as tooltip on hover
+      ],
       "logo": "images/….jpg",        // file in _config/start/images/
       "description": "…",
       "steps": [

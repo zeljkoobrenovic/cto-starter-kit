@@ -11,7 +11,22 @@
       "steps": [
         {
           "group": "Align and Communicate Guiding Principles",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html"
+            },
+            {
+              "name": "checklist",
+              "link": "https://docs.google.com/document/d/1yKsnVGG_ZfP4QkFt-UUqojxZavxvVmIZKqpdp_-hbZY/edit?usp=sharing"
+            },
+            {
+              "name": "hidden blockers",
+              "description": "I can't say no (pressure of CEO and peers to make fast changes);\n\nI need it done now (definition of success that ties self-worth solely to output and accomplishment)",
+              "link": "https://obren.io/checklists/docs/index.html?filter=say%20no;need%20it%20done%20now",
+              "icon": "icons/unblocked.png"
+            }
+          ],
           "logo": "images/pexels-compass-8828681.jpg",
           "description": "Engineering Executive: First 90 Days. The first quarter is a learning quarter — every step below follows from these five principles.",
           "steps": [
@@ -67,7 +82,22 @@
         },
         {
           "group": "1. Clarify Expectations",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html"
+            },
+            {
+              "name": "checklist",
+              "link": "https://docs.google.com/document/d/1yKsnVGG_ZfP4QkFt-UUqojxZavxvVmIZKqpdp_-hbZY/edit?usp=sharing"
+            },
+            {
+              "name": "hidden blocker",
+              "description": "I can't say no (pressure of CEO and peers to make fast changes);",
+              "link": "https://docs.google.com/document/d/1GaDoFVz5DUlSCpdSmV-RDcg3AMb_EWTKBv_pHN-zlKU/edit?usp=sharing",
+              "icon": "icons/unblocked.png"
+            }
+          ],
           "logo": "images/pexels-dartboard-6758919.jpg",
           "description": "Week 1–2.",
           "steps": [
@@ -96,7 +126,12 @@
         },
         {
           "group": "2. Understand the Business",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist"
+            }
+          ],
           "logo": "images/pexels-coins-12920750.jpg",
           "steps": [
             {
@@ -157,20 +192,52 @@
         },
         {
           "group": "3. Build Relationships & Trust",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist"
+            }
+          ],
           "logo": "images/pexels-handshake-8939052.jpg",
           "steps": [
             {
               "name": "Go on a listening tour",
               "how": "listening & visibility",
               "description": "Meet individuals and teams before forming opinions; people remember who listened first.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Connect / Helping Others Be Known",
+                  "link": "https://docs.google.com/document/d/18x5kGGk7ml3y-nontDe02eRWIYoSvmvBj54zAOnIQHE/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                },
+                {
+                  "name": "Connect / More Checklists",
+                  "link": "https://obren.io/checklists/docs/index.html?filter=group:connect",
+                  "icon": "icons/more.png"
+                }
+              ]
             },
             {
               "name": "Meet cross-functional peers and stakeholders",
               "how": "listening & visibility",
               "description": "Their view of Engineering is data you cannot get from inside the org.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Working with Your CEO, Peers, and Engineering",
+                  "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/working-with-your-ceo-peers-and-engineering.html",
+                  "icon": "icons/ceo.png"
+                },
+                {
+                  "name": "Working with Your CEO, Peers, and Engineering",
+                  "link": "https://docs.google.com/document/d/1OGCrlf_0WV8GEc4MscvXGYJ6wRI9F3GIDQX5rXNtqBs/edit?tab=t.0#heading=h.gd1p6qw5qtit",
+                  "icon": "icons/checklist.png"
+                },
+                {
+                  "name": "Blocker: I don't belong here",
+                  "link": "https://docs.google.com/document/d/1gJBmw7tJh79U-9zD8kx0qVixQolVzpY6NkOTmcZuqhE/edit?tab=t.0#heading=h.z41l9atu1bdi",
+                  "icon": "icons/unblock.png"
+                }
+              ]
             },
             {
               "name": "Set up recurring 1:1s",
@@ -188,7 +255,13 @@
               "name": "Share weekly or monthly updates on what you're learning",
               "how": "listening & visibility",
               "description": "Sharing what you are learning builds trust while making no premature commitments.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Internal Communication",
+                  "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/internal-communication.html",
+                  "icon": "icons/internal-communication.png"
+                }
+              ]
             },
             {
               "name": "Attend routine forums before changing them",
@@ -229,7 +302,12 @@
         },
         {
           "group": "4. Learn How Work Gets Done",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist"
+            }
+          ],
           "logo": "images/pexels-gears-29268627.jpg",
           "steps": [
             {
@@ -266,7 +344,12 @@
         },
         {
           "group": "5. Understand Organizational Health",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist"
+            }
+          ],
           "logo": "images/pexels-seedling-771319.jpg",
           "steps": [
             {
@@ -299,7 +382,12 @@
         },
         {
           "group": "6. Understand the Technology",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist"
+            }
+          ],
           "logo": "images/pexels-servers-5480781.jpg",
           "steps": [
             {
@@ -347,7 +435,12 @@
         },
         {
           "group": "7. Understand & Improve Hiring",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist"
+            }
+          ],
           "logo": "images/pexels-interview-5439141.jpg",
           "steps": [
             {
@@ -391,7 +484,12 @@
         },
         {
           "group": "8. Make the Right (Limited) Changes",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist"
+            }
+          ],
           "logo": "images/pexels-chess-10388905.jpg",
           "steps": [
             {
@@ -424,7 +522,12 @@
         },
         {
           "group": "9. Learn Through Reflection",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist"
+            }
+          ],
           "logo": "images/pexels-notebook-3278757.jpg",
           "steps": [
             {
@@ -456,7 +559,12 @@
         },
         {
           "group": "10. Build External Support",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist"
+            }
+          ],
           "logo": "images/pexels-climbers-2609459.jpg",
           "steps": [
             {
@@ -490,7 +598,12 @@
         },
         {
           "group": "11. Protect Long-Term Sustainability",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist"
+            }
+          ],
           "logo": "images/pexels-stones-289586.jpg",
           "steps": [
             {
@@ -523,7 +636,12 @@
       "steps": [
         {
           "group": "Turn Learning into Direction",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/index.html",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/index.html"
+            }
+          ],
           "logo": "images/pexels-signpost-14697954.jpg",
           "description": "Engineering Executive: Months 4–12. Convert the diagnosis from your first quarter into strategy, systems, and a team you trust — every step below follows from these principles.",
           "steps": [
@@ -556,7 +674,12 @@
         },
         {
           "group": "1. Write the Engineering Strategy",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/engineering-strategy.html",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/engineering-strategy.html"
+            }
+          ],
           "logo": "images/pexels-lighthouse-1535162.jpg",
           "description": "Months 4–6.",
           "steps": [
@@ -601,7 +724,12 @@
         },
         {
           "group": "2. Run Deliberate Planning & Budgeting",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/planning.html",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/planning.html"
+            }
+          ],
           "logo": "images/pexels-calculator-209224.jpg",
           "description": "Aligned with the fiscal-year cycle.",
           "steps": [
@@ -647,7 +775,12 @@
         },
         {
           "group": "3. Measure What You Will Use",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/measuring-engineering-organizations.html",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/measuring-engineering-organizations.html"
+            }
+          ],
           "logo": "images/pexels-measuring-tape-5383194.jpg",
           "steps": [
             {
@@ -686,7 +819,12 @@
         },
         {
           "group": "4. Gel Your Leadership Team",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/gelling-your-engineering-leadership-team.html",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/gelling-your-engineering-leadership-team.html"
+            }
+          ],
           "logo": "images/pexels-rowing-3754647.jpg",
           "steps": [
             {
@@ -724,7 +862,12 @@
         },
         {
           "group": "5. Establish the Operating Cadence",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/meetings.html",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/meetings.html"
+            }
+          ],
           "logo": "images/pexels-metronome-7220729.jpg",
           "steps": [
             {
@@ -757,7 +900,12 @@
         },
         {
           "group": "6. Communicate Predictably",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/internal-communication.html",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/internal-communication.html"
+            }
+          ],
           "logo": "images/pexels-megaphone-3851254.jpg",
           "steps": [
             {
@@ -792,7 +940,12 @@
         },
         {
           "group": "7. Build the Hiring Machine",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/hiring.html",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/hiring.html"
+            }
+          ],
           "logo": "images/pexels-join-team-3127883.jpg",
           "steps": [
             {
@@ -830,7 +983,12 @@
         },
         {
           "group": "8. Launch Engineering Onboarding",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/engineering-onboarding.html",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/engineering-onboarding.html"
+            }
+          ],
           "logo": "images/pexels-open-door-8276599.jpg",
           "steps": [
             {
@@ -863,7 +1021,12 @@
         },
         {
           "group": "9. Define Values & Calibrate Standards",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/organizational-values.html",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/organizational-values.html"
+            }
+          ],
           "logo": "images/pexels-scale-6077961.jpg",
           "steps": [
             {
@@ -896,7 +1059,12 @@
         },
         {
           "group": "10. Secure Executive Support",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/working-with-your-ceo-peers-and-engineering.html",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/working-with-your-ceo-peers-and-engineering.html"
+            }
+          ],
           "logo": "images/pexels-bridge-1485894.jpg",
           "steps": [
             {
@@ -939,7 +1107,12 @@
       "steps": [
         {
           "group": "Lead for the Long Run",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/index.html",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/index.html"
+            }
+          ],
           "logo": "images/pexels-road-19708273.jpg",
           "description": "Engineering Executive: Year 2 and beyond. Shift from building systems to inspecting and evolving them — durable disciplines rather than one-off projects.",
           "steps": [
@@ -972,7 +1145,12 @@
         },
         {
           "group": "1. Practice Inspected Trust",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/inspected-trust.html",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/inspected-trust.html"
+            }
+          ],
           "logo": "images/pexels-magnifier-4494642.jpg",
           "steps": [
             {
@@ -1010,7 +1188,12 @@
         },
         {
           "group": "2. Master All Three Leadership Styles",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/leadership-styles.html",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/leadership-styles.html"
+            }
+          ],
           "logo": "images/pexels-conductor-12240911.jpg",
           "steps": [
             {
@@ -1045,7 +1228,12 @@
         },
         {
           "group": "3. Evolve Processes Deliberately",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/run-engineering-processes.html",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/run-engineering-processes.html"
+            }
+          ],
           "logo": "images/pexels-clockwork-34182727.jpg",
           "steps": [
             {
@@ -1079,7 +1267,12 @@
         },
         {
           "group": "4. Evolve Org & Architecture Together",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/four-fundamental-team-topologies.html",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/four-fundamental-team-topologies.html"
+            }
+          ],
           "logo": "images/pexels-blocks-9822733.jpg",
           "steps": [
             {
@@ -1124,7 +1317,12 @@
         },
         {
           "group": "5. Onboard Peer Executives Well",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/onboarding-peer-executives.html",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/onboarding-peer-executives.html"
+            }
+          ],
           "logo": "images/pexels-coffee-3874031.jpg",
           "steps": [
             {
@@ -1162,7 +1360,12 @@
         },
         {
           "group": "6. Build Prestige Deliberately",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/personal-and-organizational-prestige.html",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/personal-and-organizational-prestige.html"
+            }
+          ],
           "logo": "images/pexels-trophy-10815750.jpg",
           "steps": [
             {
@@ -1199,7 +1402,12 @@
         },
         {
           "group": "7. Cultivate Your Network",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/your-network.html",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/your-network.html"
+            }
+          ],
           "logo": "images/pexels-network-5511447.jpg",
           "steps": [
             {
@@ -1237,7 +1445,12 @@
         },
         {
           "group": "8. Be Ready for M&A",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/mergers-and-acquisitions.html",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/mergers-and-acquisitions.html"
+            }
+          ],
           "logo": "images/pexels-puzzle-269399.jpg",
           "steps": [
             {
@@ -1271,7 +1484,12 @@
         },
         {
           "group": "9. Sustain Your Energy",
-          "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/managing-energy.html",
+          "links": [
+            {
+              "name": "guide",
+              "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/managing-energy.html"
+            }
+          ],
           "logo": "images/pexels-athlete-1840437.jpg",
           "steps": [
             {
