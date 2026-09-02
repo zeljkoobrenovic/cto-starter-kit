@@ -1,0 +1,39 @@
+_config/start/apps.json
+  s_3378a559899cb7::t_e8850b920bded6 1521-1524
+  s_3378a559899cb7::t_7c1ae87698f7ff 1240-1243
+  s_3378a559899cb7::t_1190e92179e15b 1287-1290
+  s_3378a559899cb7::t_58bd38d4d5095f 1374-1377
+  s_3378a559899cb7::t_755b7986eeb242 1475-1478
+  s_3378a559899cb7::t_3b5df7b69de6d1 1568-1571
+  s_3378a559899cb7::t_877c503f7cb822 519-530
+  s_3378a559899cb7::t_3f7fbdbd022e27 1611-1614
+  s_3378a559899cb7::t_6f89200453a5f8 931-942
+  s_3378a559899cb7::t_9e197f4cc60a1b 726-732,737-748,753-759,765-771,776-782,787-793
+  s_3378a559899cb7::t_28ce4d6d5e61f2 351-356
+  s_3378a559899cb7::t_4faee651e1eca5 713-716
+  s_3378a559899cb7::t_439603e5392301 485-496
+  s_3378a559899cb7::t_ef502c41e59862 448-451
+  s_3378a559899cb7::t_0baf6bfb0f2027 1331-1334
+  s_3378a559899cb7::t_034396dc2168d2 1428-1431
+  s_3378a559899cb7::t_ec4a3cfb80beb8 143,175,186,1656-1658
+docs/start/index.html
+  s_3378a559899cb7::t_f1e3caf639f4ff 442,495
+_templates/start/index.html
+  s_3378a559899cb7::t_5cab9bb9fc28a7 442
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "81c27f43feca827991d0487b6ec9216aaeea1957",
+  "prompts": {},
+  "sessions": {
+    "s_3378a559899cb7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7cc63be4-9524-4de2-add0-afcf250bb3ae",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Zeljko Obrenovic <zeljkoobrenovic@yahoo.com>"
+    }
+  }
+}
