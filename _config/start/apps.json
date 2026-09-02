@@ -24,7 +24,7 @@
               "name": "hidden blockers",
               "description": "I can't say no (pressure of CEO and peers to make fast changes);\n\nI need it done now (definition of success that ties self-worth solely to output and accomplishment)",
               "link": "https://obren.io/checklists/docs/index.html?filter=say%20no;need%20it%20done%20now",
-              "icon": "icons/unblocked.png"
+              "icon": "icons/unblock.png"
             }
           ],
           "logo": "images/pexels-compass-8828681.jpg",
@@ -95,7 +95,7 @@
               "name": "hidden blocker",
               "description": "I can't say no (pressure of CEO and peers to make fast changes);",
               "link": "https://docs.google.com/document/d/1GaDoFVz5DUlSCpdSmV-RDcg3AMb_EWTKBv_pHN-zlKU/edit?usp=sharing",
-              "icon": "icons/unblocked.png"
+              "icon": "icons/unblock.png"
             }
           ],
           "logo": "images/pexels-dartboard-6758919.jpg",
@@ -509,6 +509,12 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist"
+            },
+            {
+              "name": "hidden blocker",
+              "description": "I need it done now (the pull toward fast, visible changes before context is earned)",
+              "link": "https://docs.google.com/document/d/1rLOsAd9MqoTzACD7didiN1dqzUEuqFoUfwjmyxNji0w/edit?usp=sharing",
+              "icon": "icons/unblock.png"
             }
           ],
           "logo": "images/pexels-chess-10388905.jpg",
@@ -558,6 +564,12 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist"
+            },
+            {
+              "name": "hidden blocker",
+              "description": "I know I'm right (first impressions and last-job playbooks treated as answers instead of hypotheses)",
+              "link": "https://docs.google.com/document/d/1IBv5c3exntYuFq7QcAzAucoVjIcjpN81qcztSTut_CA/edit?usp=sharing",
+              "icon": "icons/unblock.png"
             }
           ],
           "logo": "images/pexels-notebook-3278757.jpg",
@@ -634,6 +646,12 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist"
+            },
+            {
+              "name": "hidden blocker",
+              "description": "I need it done now (self-worth tied solely to output and accomplishment — the root of unsustainable pace)",
+              "link": "https://docs.google.com/document/d/1rLOsAd9MqoTzACD7didiN1dqzUEuqFoUfwjmyxNji0w/edit?usp=sharing",
+              "icon": "icons/unblock.png"
             }
           ],
           "logo": "images/pexels-stones-289586.jpg",
@@ -685,7 +703,13 @@
             {
               "name": "Build key operating systems that run without you in the room",
               "description": "Hiring, planning, and meetings should work through owners and cadences, not your constant presence.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Blocker: I need to be involved",
+                  "link": "https://docs.google.com/document/d/1fsmrClrhM17S7LrmUdYS207RYQ6Xl_HKK3nzDuxBFlc/edit?usp=sharing",
+                  "icon": "icons/unblock.png"
+                }
+              ]
             },
             {
               "name": "Limit concurrent major initiatives — finish and prove value before starting more",
@@ -1113,6 +1137,12 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/organizational-values.html"
+            },
+            {
+              "name": "hidden blocker",
+              "description": "If I can do it, so can you (what worked for you should work for everyone — the trap behind mismatched standards)",
+              "link": "https://docs.google.com/document/d/196yZ0RS-FYR14O0w6kKfQQoFj1yvaj-2EDts4W-PPDQ/edit?usp=sharing",
+              "icon": "icons/unblock.png"
             }
           ],
           "logo": "images/pexels-scale-6077961.jpg",
@@ -1241,6 +1271,12 @@
             {
               "name": "checklist",
               "link": "https://docs.google.com/document/d/1wOdcX_6zTPQetkTmlb6a9aHdk4SWDVcp8CfvHOgc80s/edit?usp=sharing"
+            },
+            {
+              "name": "hidden blocker",
+              "description": "I need to be involved (over-involvement disguised as inspection prevents teams from owning their roles)",
+              "link": "https://docs.google.com/document/d/1fsmrClrhM17S7LrmUdYS207RYQ6Xl_HKK3nzDuxBFlc/edit?usp=sharing",
+              "icon": "icons/unblock.png"
             }
           ],
           "logo": "images/pexels-magnifier-4494642.jpg",
@@ -1253,7 +1289,13 @@
             {
               "name": "Evaluate decisions on process quality, separately from outcomes — reward good process after bad outcomes",
               "description": "Punishing good errors and rewarding bad successes optimizes for luck.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Blocker: I can't make a mistake",
+                  "link": "https://docs.google.com/document/d/157WEHG6WK-kEkd6UrLehCBYWrKPq6m56p8XA4RdsRjM/edit?usp=sharing",
+                  "icon": "icons/unblock.png"
+                }
+              ]
             },
             {
               "name": "Run weekly or monthly metric forums; don't rely on quarterly-only reviews",
@@ -1288,6 +1330,12 @@
             {
               "name": "checklist",
               "link": "https://docs.google.com/document/d/1VieSR1aAuYXBWLTx0pBo3ciVP1jSls9J6clv1QiK_tk/edit?usp=sharing"
+            },
+            {
+              "name": "hidden blocker",
+              "description": "I know I'm right (defaulting to conviction because you believe you hold the answers)",
+              "link": "https://docs.google.com/document/d/1IBv5c3exntYuFq7QcAzAucoVjIcjpN81qcztSTut_CA/edit?usp=sharing",
+              "icon": "icons/unblock.png"
             }
           ],
           "logo": "images/pexels-conductor-12240911.jpg",
@@ -1612,6 +1660,12 @@
             {
               "name": "checklist",
               "link": "https://docs.google.com/document/d/11kIvbsSxiZ7jKl-LKnIqssWlYgNmeHHxn5axxMrj_Cs/edit?usp=sharing"
+            },
+            {
+              "name": "hidden blocker",
+              "description": "I need it done now (self-worth tied solely to output and accomplishment — the root of unsustainable pace)",
+              "link": "https://docs.google.com/document/d/1rLOsAd9MqoTzACD7didiN1dqzUEuqFoUfwjmyxNji0w/edit?usp=sharing",
+              "icon": "icons/unblock.png"
             }
           ],
           "logo": "images/pexels-athlete-1840437.jpg",
