@@ -1,0 +1,30 @@
+docs/start/index.html
+  s_3378a559899cb7::t_3c9e7474a6512a 495
+_config/start/apps.json
+  s_3378a559899cb7::t_33764e334cf5d1 1274-1279
+  s_3378a559899cb7::t_e26482db9a185b 27,98
+  s_3378a559899cb7::t_71b868bef67432 1663-1668
+  s_3378a559899cb7::t_bd79b25aa75cd1 567-572
+  s_3378a559899cb7::t_7b99374cd34e27 1140-1145
+  s_3378a559899cb7::t_8154bc946cd4be 1292-1298
+  s_3378a559899cb7::t_4a26a91293e421 512-517
+  s_3378a559899cb7::t_ba8429f28271b6 1333-1338
+  s_3378a559899cb7::t_5b063555a591d2 706-712
+  s_3378a559899cb7::t_4eaed225c72274 649-654
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "90ff88def77a9e90b7e34652137447930a41bcc2",
+  "prompts": {},
+  "sessions": {
+    "s_3378a559899cb7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7cc63be4-9524-4de2-add0-afcf250bb3ae",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Zeljko Obrenovic <zeljkoobrenovic@yahoo.com>"
+    }
+  }
+}
