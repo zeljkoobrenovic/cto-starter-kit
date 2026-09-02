@@ -140,7 +140,7 @@
               "tools": [
                 {
                   "name": "Product Strategy",
-                  "link": "https://zeljkoobrenovic.github.io/grounded-product-architecture/start-packages/overview/index.html",
+                  "link": "https://zeljkoobrenovic.github.io/productscape/start-packages/overview/index.html",
                   "icon": "icons/grounded-product.png"
                 },
                 {
@@ -172,7 +172,7 @@
               "tools": [
                 {
                   "name": "Product Strategy",
-                  "link": "https://zeljkoobrenovic.github.io/grounded-product-architecture/start-packages/overview/index.html",
+                  "link": "https://zeljkoobrenovic.github.io/productscape/start-packages/overview/index.html",
                   "icon": "icons/grounded-product.png"
                 }
               ]
@@ -183,7 +183,7 @@
               "tools": [
                 {
                   "name": "Product Strategy",
-                  "link": "https://zeljkoobrenovic.github.io/grounded-product-architecture/start-packages/overview/index.html",
+                  "link": "https://zeljkoobrenovic.github.io/productscape/start-packages/overview/index.html",
                   "icon": "icons/grounded-product.png"
                 }
               ]
@@ -348,6 +348,12 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist"
+            },
+            {
+              "name": "team health checklists",
+              "description": "Five Dysfunctions of a Team: a diagnostic series for trust, conflict, commitment, accountability, and results",
+              "link": "https://obren.io/checklists/docs/index.html?filter=group:five%20dysfunction",
+              "icon": "icons/checklist.png"
             }
           ],
           "logo": "images/pexels-seedling-771319.jpg",
@@ -439,6 +445,10 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/first-90-days.html#checklist"
+            },
+            {
+              "name": "checklist",
+              "link": "https://docs.google.com/document/d/1BoCi_OYTQztyViv5v4Ihs1JhNWoC3WGAbgk7SpYNjCg/edit?usp=sharing"
             }
           ],
           "logo": "images/pexels-interview-5439141.jpg",
@@ -472,7 +482,18 @@
             {
               "name": "Evaluate whether the hiring process needs an overhaul",
               "description": "Decide deliberately whether to fix or rebuild before hiring scales further.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Interview Framework & Rubric (Senior Software Engineers)",
+                  "link": "https://docs.google.com/document/d/1Smc7M5IZndpX2AVa-pn1io-SLQg0MVGwzamcfycUP-4/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                },
+                {
+                  "name": "Interview Framework & Rubric (Engineering Director)",
+                  "link": "https://docs.google.com/document/d/1S-DcmpMPzJtp0InHLqQ5honzUr-xkieG0h15jx7YABI/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                }
+              ]
             },
             {
               "name": "Kick off Engineering brand efforts",
@@ -495,7 +516,18 @@
             {
               "name": "Limit early changes to 1–2 high-leverage improvements",
               "description": "Few and finished beats many and abandoned — every change spends scarce trust.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "First Things First",
+                  "link": "https://docs.google.com/document/d/1HL8ItjQgybo8jaiuLroKLKh0RWWixQwxcRY0YaHqyaU/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                },
+                {
+                  "name": "Decision-Making Process",
+                  "link": "https://docs.google.com/document/d/1WG236vrDdnE_i7oQlpuemSbPC3lXuPa7sYoT98-x3J8/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                }
+              ]
             },
             {
               "name": "Avoid disrupting systems without a working alternative",
@@ -678,6 +710,10 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/engineering-strategy.html"
+            },
+            {
+              "name": "checklist",
+              "link": "https://docs.google.com/document/d/1xYlAREdlXgxSZNeHYjv7phydWM-q59wds_5oDhFLRiY/edit?usp=sharing"
             }
           ],
           "logo": "images/pexels-lighthouse-1535162.jpg",
@@ -687,33 +723,74 @@
               "name": "Write the strategy document yourself",
               "how": "diagnosis → guiding policies → coherent actions",
               "description": "Delegating the writing signals delegated ownership; the diagnosis and trade-offs must be yours.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Engineering Strategy Basics",
+                  "link": "https://docs.google.com/document/d/1LJvEVv4oAetnxvnCcPCQIJK2JgIEy58q1liAIvgz_3Y/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                }
+              ]
             },
             {
               "name": "Build the diagnosis from the roadmap, financials, and survey data; validate it with skeptics",
               "description": "A strategy built on a wrong diagnosis fails no matter how good the policies are.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Strategy Exploration",
+                  "link": "https://docs.google.com/document/d/125ZAVdCTn-OitPL5CntTEDBJip-PLwyorVxPJi6s2_I/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                },
+                {
+                  "name": "Strategy Diagnosis",
+                  "link": "https://docs.google.com/document/d/13hj3Hfrlk4zV8cO3vlsMAh7gqQrYgOYOUE72DcGDva8/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                }
+              ]
             },
             {
               "name": "Document resource allocation, fundamental rules, and decision rights explicitly",
               "description": "These three policy areas decide most day-to-day conflicts before they reach you.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Strategy Policy Setting",
+                  "link": "https://docs.google.com/document/d/1zptVA0CmaG8_PGcB8PeUHhDMRGl7HWQhvshY6SS1Jus/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                }
+              ]
             },
             {
               "name": "Test every policy against three checks",
               "how": "applicable, enforced, leverage-creating",
               "description": "A policy that fails any of the three checks is a slogan, not a strategy.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Strategy Refining",
+                  "link": "https://docs.google.com/document/d/1Oc74GoYPQtKchY9fAC2RoHKqbsUwmCk5z3UDWP5KXhY/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                }
+              ]
             },
             {
               "name": "Iterate drafts with a working group of 3–5 trusted stakeholders before socializing widely",
               "description": "Early private iteration surfaces flaws cheaply and creates allies for the launch.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Strategy Style Guide",
+                  "link": "https://docs.google.com/document/d/1-y9q4hToDZBZgOu-e9YyyfsK1z0YEMOKNAX4M6Wu1EA/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                }
+              ]
             },
             {
               "name": "Launch with a ~1-week feedback window; review impact after ~2 months; refresh annually",
               "description": "A defined feedback and review rhythm keeps the strategy alive instead of shelfware.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Strategy Operations",
+                  "link": "https://docs.google.com/document/d/1l0qxkXiR9s7fv6dK6ckOUIdZrUzVweB_tabqVjhfwJ4/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                }
+              ]
             },
             {
               "name": "If company strategy is undocumented, write down your best understanding of it",
@@ -851,7 +928,18 @@
             {
               "name": "Write a personal README covering your working style and decision philosophy",
               "description": "The team wastes months guessing how to work with you; write it down instead.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Working With Me template",
+                  "link": "https://docs.google.com/document/d/1TQHPjAPfLoAu6ohva9rXO2JMyxrHgLr9F-poLJz9G1I/edit?usp=sharing",
+                  "icon": "icons/templates.png"
+                },
+                {
+                  "name": "Working With Me example",
+                  "link": "https://docs.google.com/document/d/1zgpqDtUhH0xnKHZVtnBWqBxwgL5WbEU1QSDmmt_hrr0/edit?usp=sharing",
+                  "icon": "icons/docs.png"
+                }
+              ]
             },
             {
               "name": "Address signs of peer competition in 1:1s before they harden",
@@ -1149,6 +1237,10 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/inspected-trust.html"
+            },
+            {
+              "name": "checklist",
+              "link": "https://docs.google.com/document/d/1wOdcX_6zTPQetkTmlb6a9aHdk4SWDVcp8CfvHOgc80s/edit?usp=sharing"
             }
           ],
           "logo": "images/pexels-magnifier-4494642.jpg",
@@ -1192,6 +1284,10 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/leadership-styles.html"
+            },
+            {
+              "name": "checklist",
+              "link": "https://docs.google.com/document/d/1VieSR1aAuYXBWLTx0pBo3ciVP1jSls9J6clv1QiK_tk/edit?usp=sharing"
             }
           ],
           "logo": "images/pexels-conductor-12240911.jpg",
@@ -1232,6 +1328,10 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/run-engineering-processes.html"
+            },
+            {
+              "name": "checklist",
+              "link": "https://docs.google.com/document/d/1D2Y7dIoZ6kDjUbVlUbZbRGesJ_uwGv30yzqg_AMLOTc/edit?usp=sharing"
             }
           ],
           "logo": "images/pexels-clockwork-34182727.jpg",
@@ -1271,6 +1371,10 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/four-fundamental-team-topologies.html"
+            },
+            {
+              "name": "checklists",
+              "link": "https://obren.io/checklists/docs/index.html?filter=group:team%20topologies"
             }
           ],
           "logo": "images/pexels-blocks-9822733.jpg",
@@ -1321,6 +1425,10 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/onboarding-peer-executives.html"
+            },
+            {
+              "name": "checklist",
+              "link": "https://docs.google.com/document/d/1ozIS2__mwyPcG7-1NWp0B8f7GKrJo8oTETdJJBzB5Jc/edit?usp=sharing"
             }
           ],
           "logo": "images/pexels-coffee-3874031.jpg",
@@ -1364,6 +1472,10 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/personal-and-organizational-prestige.html"
+            },
+            {
+              "name": "checklist",
+              "link": "https://docs.google.com/document/d/1-R2Ez7MiVsP-geJ5lpF5Qpiq4jrnO0tmOT3K50Ft8Qw/edit?usp=sharing"
             }
           ],
           "logo": "images/pexels-trophy-10815750.jpg",
@@ -1406,6 +1518,10 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/your-network.html"
+            },
+            {
+              "name": "checklist",
+              "link": "https://docs.google.com/document/d/1aLZNAlPjfmbqd846NhiGKqLgHtuYSxGPAKtLvY3rHQI/edit?usp=sharing"
             }
           ],
           "logo": "images/pexels-network-5511447.jpg",
@@ -1449,6 +1565,10 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/mergers-and-acquisitions.html"
+            },
+            {
+              "name": "checklist",
+              "link": "https://docs.google.com/document/d/1c2epK_n12pfuC5_q7E8RmX-E2gLYSpLDUULQbyvuwVE/edit?usp=sharing"
             }
           ],
           "logo": "images/pexels-puzzle-269399.jpg",
@@ -1488,6 +1608,10 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/managing-energy.html"
+            },
+            {
+              "name": "checklist",
+              "link": "https://docs.google.com/document/d/11kIvbsSxiZ7jKl-LKnIqssWlYgNmeHHxn5axxMrj_Cs/edit?usp=sharing"
             }
           ],
           "logo": "images/pexels-athlete-1840437.jpg",
@@ -1529,9 +1653,9 @@
           "group": "product",
           "apps": [
             {
-              "name": "Grounded Product Architecture",
-              "link": "https://zeljkoobrenovic.github.io/grounded-product-architecture/start-packages/overview/index.html",
-              "icon": "https://zeljkoobrenovic.github.io/grounded-product-architecture/start-packages/overview/icons/logo.png",
+              "name": "Productscape",
+              "link": "https://zeljkoobrenovic.github.io/productscape/start-packages/overview/index.html",
+              "icon": "https://zeljkoobrenovic.github.io/productscape/start-packages/overview/icons/logo.png",
               "description": "spec-driven, customer-centric, implementation-aware product architecture",
               "source": ""
             }
