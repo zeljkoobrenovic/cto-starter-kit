@@ -22,7 +22,7 @@ python3 _wiring/start/generate-docs.py
 
 ## Tabs
 
-Each entry in `apps` is a tab, in one of two shapes:
+Each entry in `apps` is a tab, in one of three shapes:
 
 **Step tabs** (guided sequences — e.g. "First 90 Days", "First Year", "Long Term"):
 
@@ -72,6 +72,17 @@ Each entry in `apps` is a tab, in one of two shapes:
   ]
 }
 ```
+
+**Link tabs** (navigation to another page):
+
+```json
+{
+  "tab": "Communities&nbsp;&#x2192;",
+  "link": "../communities/index.html"
+}
+```
+
+A non-empty `link` makes the tab open that URL in the same browser tab, without a content panel. The label supports HTML entities. Any `apps` or `steps` on a link tab are ignored. Link tabs can appear anywhere in the list; the first content tab is selected by default, or the previously selected content tab is restored.
 
 ## Assets
 

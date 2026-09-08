@@ -1,0 +1,642 @@
+{
+  "retrievedOn": "2026-09-08",
+  "logos": [
+    {
+      "community": "Engineering Leadership Community (ELC)",
+      "file": "logos/elc.png",
+      "sourcePage": "https://elc.community/en",
+      "sourceUrl": "https://d92co48ro6fll.cloudfront.net/tenant/elc/square-logo.png"
+    },
+    {
+      "community": "7CTOs",
+      "file": "logos/7ctos.jpg",
+      "sourcePage": "https://0111conf.com/",
+      "sourceUrl": "https://0111conf.com/assets/7ctos-original-BlP2h2Rk.jpg"
+    },
+    {
+      "community": "alphalist",
+      "file": "logos/alphalist.svg",
+      "sourcePage": "https://alphalist.com/",
+      "sourceUrl": "https://alphalist.com/img/symbol_black.svg"
+    },
+    {
+      "community": "CTO Academy Community",
+      "file": "logos/cto-academy.png",
+      "sourcePage": "https://cto.academy/membership/",
+      "sourceUrl": "https://website-assets.cto.academy/2021/02/CTO-Academy-Logo-Menu.png"
+    },
+    {
+      "community": "CTO Forum",
+      "file": "logos/cto-forum.png",
+      "sourcePage": "https://www.ctoforum.org/",
+      "sourceUrl": "https://www.ctoforum.org/wp-content/uploads/2020/12/Artboard-1-1.png"
+    },
+    {
+      "community": "Rands Leadership Slack",
+      "file": "logos/rands-leadership-slack.png",
+      "sourcePage": "https://github.com/randsleadershipslack",
+      "sourceUrl": "https://avatars.githubusercontent.com/u/16449718?s=200&v=4"
+    },
+    {
+      "community": "CPO Track",
+      "file": "logos/cpo-track.png",
+      "sourcePage": "https://www.cpotrack.co.uk/",
+      "sourceUrl": "https://cdn.prod.website-files.com/652fe0be0c1ad0fd2c9d2c35/653a68e13b0859b92a1a5c4f_webclip.png"
+    },
+    {
+      "community": "CPO Connect",
+      "file": "logos/cpo-connect.png",
+      "sourcePage": "https://cpoconnect.club/",
+      "sourceUrl": "https://cpoconnect.club/apple-touch-icon.png"
+    },
+    {
+      "community": "CPO Circles",
+      "file": "logos/cpo-circles.png",
+      "sourcePage": "https://members.cpo.social/about/",
+      "sourceUrl": "https://storage.ghost.io/c/04/3e/043e873e-23ed-4855-9652-ec6ffa004520/content/images/size/w256h256/2023/04/CPO-Circles-favicon.png"
+    },
+    {
+      "community": "CPO Studio",
+      "file": "logos/cpo-studio.webp",
+      "sourcePage": "https://cpo.studio/",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/683712f4045d576f4041e3ca/0088a269-8eec-46eb-9026-1b12366c2242/logo-CPO.png?format=1500w"
+    },
+    {
+      "community": "Mind the Product Leaders",
+      "file": "logos/mind-the-product.png",
+      "sourcePage": "https://www.mindtheproduct.com/product-leadership-program/",
+      "sourceUrl": "https://www.mindtheproduct.com/nextsiteimages/apple-touch-icon.png"
+    },
+    {
+      "community": "Products That Count",
+      "file": "logos/products-that-count.svg",
+      "sourcePage": "https://productsthatcount.org/",
+      "sourceUrl": "https://productsthatcount.org/wp-content/uploads/logo.svg"
+    },
+    {
+      "community": "Women In Product",
+      "file": "logos/women-in-product.png",
+      "sourcePage": "https://womenpm.org/executives/",
+      "sourceUrl": "https://womenpm.org/wp-content/uploads/2022/07/WIP_fav-01-300x300.png"
+    },
+    {
+      "community": "Group Effort",
+      "file": "logos/group-effort.jpg",
+      "sourcePage": "https://groupeffort.nl/wp-json/wp/v2/media?search=Group-Effort-Logo&per_page=30",
+      "sourceUrl": "https://groupeffort.nl/wp-content/uploads/2023/05/Group-Effort-Logo-Horizontal-RGB.jpg"
+    },
+    {
+      "community": "Product Leaders Network",
+      "file": "logos/product-leaders-network.svg",
+      "sourcePage": "https://productleadersnetwork.com/join/",
+      "sourceUrl": "https://productleadersnetwork.com/wp-content/uploads/2021/05/logo-PLN-3.svg"
+    },
+    {
+      "community": "Engineering Leadership",
+      "file": "logos/engineering-leadership.jpeg",
+      "sourcePage": "https://www.meetup.com/engineeringleadershipnl/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/7/7/a/a/600_511830634.jpeg"
+    },
+    {
+      "community": "iSAQB Software Architecture Community NL",
+      "file": "logos/isaqb-nl.jpeg",
+      "sourcePage": "https://www.meetup.com/isaqb-nl/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/2/7/7/8/600_516130104.jpeg"
+    },
+    {
+      "community": "TNO Fast Track CTO Unconferences",
+      "file": "logos/tno-fast-track.png",
+      "sourcePage": "https://fasttrack.tno.nl/en/cto-unconference-mxt/",
+      "sourceUrl": "https://fasttrack.tno.nl/en/apple-touch-icon.png"
+    },
+    {
+      "community": "Techleap Community",
+      "file": "logos/techleap.svg",
+      "sourcePage": "https://techleap.community/connect/",
+      "sourceUrl": "https://techleap.community/favicon.svg"
+    },
+    {
+      "community": "Product Meetup Amsterdam",
+      "file": "logos/product-meetup-amsterdam.jpeg",
+      "sourcePage": "https://www.meetup.com/product-meetup-amsterdam/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/9/5/4/e/600_527678222.jpeg"
+    },
+    {
+      "community": "Amsterdam Product Club",
+      "file": "logos/amsterdam-product-club.jpg",
+      "sourcePage": "https://www.amsterdamproductclub.com/",
+      "sourceUrl": "https://cdn.prod.website-files.com/68e4d89f792751f62d5be299/68ef57898747d444d36467a8_apc-webclip.jpg"
+    },
+    {
+      "community": "ProductTank Amsterdam (AMS)",
+      "file": "logos/producttank-amsterdam.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-ams/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/a/0/b/4/600_504161140.jpeg"
+    },
+    {
+      "community": "ProductTank Rotterdam",
+      "file": "logos/producttank-rotterdam.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-rotterdam/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/7/b/0/6/600_517771494.jpeg"
+    },
+    {
+      "community": "Seattle CTO Club",
+      "file": "logos/seattle-cto-club.jpg",
+      "sourcePage": "https://seattlectoclub.com/about/",
+      "sourceUrl": "https://seattlectoclub.com/wp-content/uploads/2024/10/cropped-176-1767321_space-needle-in-seattle-washington-png-ico-icns.jpg?w=200"
+    },
+    {
+      "community": "Austin CTO Club",
+      "file": "logos/austin-cto-club.svg",
+      "sourcePage": "https://atx.ctoclubs.net/",
+      "sourceUrl": "https://atx.ctoclubs.net/images/logos/atxcto.svg"
+    },
+    {
+      "community": "Atlanta CTO Club",
+      "file": "logos/atlanta-cto-club.webp",
+      "sourcePage": "https://www.atlantacto.org/",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68766dcc964c913bd6bbc1c2/c0da4be9-4518-44b2-9eff-28097e96cc13/ATL+CTO+logo+-+color+white.png?format=500w"
+    },
+    {
+      "community": "Chicago CTO Group",
+      "file": "logos/chicago-cto-group.png",
+      "sourcePage": "https://www.chicagoctogroup.org/",
+      "sourceUrl": "https://www.chicagoctogroup.org/assets/images/CTO-logo-01.png"
+    },
+    {
+      "community": "South Florida CTO Club",
+      "file": "logos/south-florida-cto-club.png",
+      "sourcePage": "https://southflcto.org/",
+      "sourceUrl": "https://southflcto.org/wp-content/uploads/2025/11/SouthFL_CTO-logo.png"
+    },
+    {
+      "community": "Boston Product Executives Forum (BPMA)",
+      "file": "logos/boston-product-management-association.jpg",
+      "sourcePage": "https://www.bostonproducts.org/page/product-executives-forum",
+      "sourceUrl": "https://cdn.prod.website-files.com/655380540e92d9e8bcf4d58a/6564af4c2a0ffd90a4d6449f_Webclip%20256%20%C3%97%20256.jpg"
+    },
+    {
+      "community": "Product Hive (Utah)",
+      "file": "logos/product-hive.png",
+      "sourcePage": "https://producthive.org/",
+      "sourceUrl": "https://static.wixstatic.com/media/6b3b01_0e4fbab532cb43d89cd497731180741e%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/6b3b01_0e4fbab532cb43d89cd497731180741e%7Emv2.png"
+    },
+    {
+      "community": "London Tech Leaders",
+      "file": "logos/london-tech-leaders.svg",
+      "sourcePage": "https://londontechleaders.io/",
+      "sourceUrl": "https://londontechleaders.io/favicon.svg"
+    },
+    {
+      "community": "Branch",
+      "file": "logos/branch.png",
+      "sourcePage": "https://branch.indiespring.com/",
+      "sourceUrl": "https://branch.indiespring.com/lovable-uploads/fa72ddf2-43e9-4dec-8d5d-6638ce0b8d4c.png"
+    },
+    {
+      "community": "Tech Leads NW",
+      "file": "logos/tech-leads-nw.jpeg",
+      "sourcePage": "https://www.meetup.com/tech-leads-nw/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/d/b/2/8/600_519716104.jpeg"
+    },
+    {
+      "community": "thoughtbot UK Tech Leaders Meetups",
+      "file": "logos/thoughtbot.png",
+      "sourcePage": "https://thoughtbot.com/london",
+      "sourceUrl": "https://thoughtbot.com/assets/apple-touch-icon-d153905f7cace4e341a2b660042bef3999c7a97666f11dcf49022f9f1f45c991.png"
+    },
+    {
+      "community": "Product Pints",
+      "file": "logos/product-pints.png",
+      "sourcePage": "https://productpints.com/about-us/",
+      "sourceUrl": "https://productpints.com/wp-content/uploads/2022/07/Product-Pints-Logo-02-300x300.png"
+    },
+    {
+      "community": "ProductTank Manchester",
+      "file": "logos/producttank-manchester.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-manchester/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/4/4/0/f/600_525977423.jpeg"
+    },
+    {
+      "community": "ProductTank Bristol",
+      "file": "logos/producttank-bristol.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-bristol/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/1/e/7/8/600_469627800.jpeg"
+    },
+    {
+      "community": "ProductTank Edinburgh",
+      "file": "logos/producttank-edinburgh.jpeg",
+      "sourcePage": "https://www.meetup.com/producttankedi/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/6/a/e/a/600_523167370.jpeg"
+    },
+    {
+      "community": "ProductTank Cardiff",
+      "file": "logos/producttank-cardiff.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-cardiff/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/5/2/6/2/600_512601090.jpeg"
+    },
+    {
+      "community": "ProductTank Belfast",
+      "file": "logos/producttank-belfast.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-belfast/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/6/4/6/7/600_520645703.jpeg"
+    },
+    {
+      "community": "UK IT Leaders",
+      "file": "logos/uk-it-leaders.svg",
+      "sourcePage": "https://sales-filter.com/",
+      "sourceUrl": "https://sales-filter.com/images/Sales-Filter/uk-it-leaders-logo.svg"
+    },
+    {
+      "community": "CTO Club Belgium",
+      "file": "logos/cto-club-belgium.png",
+      "sourcePage": "https://ctoclub.be/",
+      "sourceUrl": "https://ctoclub.be/wp-content/uploads/2025/07/cropped-CTO-favicon-192x192.png"
+    },
+    {
+      "community": "The Product Consortium",
+      "file": "logos/product-consortium.png",
+      "sourcePage": "https://www.theproductconsortium.com/",
+      "sourceUrl": "https://www.theproductconsortium.com/images/logos/tpc-icon-2026-dark-bg.png"
+    },
+    {
+      "community": "Gapstars CTO Club",
+      "file": "logos/gapstars-cto-club.png",
+      "sourcePage": "https://gapstars.net/tech/cto-club/",
+      "sourceUrl": "https://gapstars.net/tech/wp-content/uploads/elementor/thumbs/CTO_Club-rma3ppthatbgv30hyji9ap3euwfuufc00dpl0we6s0.png"
+    },
+    {
+      "community": "Lux Tech Community",
+      "file": "logos/lux-tech-community.jpeg",
+      "sourcePage": "https://www.linkedin.com/showcase/lux-tech-community/",
+      "sourceUrl": "https://media.licdn.com/dms/image/v2/C560BAQG1woOa2V__7Q/company-logo_200_200/company-logo_200_200/0/1630655646808?e=2147483647&v=beta&t=ngZKT8D9jM-9FpC7fc6Yws0b2MfNF95hyNlh_kdl3yE"
+    },
+    {
+      "community": "ProductTank Luxembourg City",
+      "file": "logos/producttank-luxembourg.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-luxembourg/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/a/c/d/6/600_510344246.jpeg"
+    },
+    {
+      "community": "CTO Roundtable Berlin",
+      "file": "logos/cto-roundtable-berlin.jpeg",
+      "sourcePage": "https://www.meetup.com/cto-roundtable-berlin/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/8/c/b/6/600_530136022.jpeg"
+    },
+    {
+      "community": "Isar Tech Leaders Community",
+      "file": "logos/isar-tech-leaders.svg",
+      "sourcePage": "https://isartechleaders.com/",
+      "sourceUrl": "https://isartechleaders.com/images/logo.svg"
+    },
+    {
+      "community": "ProductTank Berlin",
+      "file": "logos/producttank-berlin.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-berlin/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/8/b/5/0/600_497075664.jpeg"
+    },
+    {
+      "community": "ProductTank Hamburg",
+      "file": "logos/producttank-hamburg.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-hamburg/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/3/9/a/2/600_508274754.jpeg"
+    },
+    {
+      "community": "ProductTank Munich",
+      "file": "logos/producttank-munich.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-munich/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/c/3/3/7/600_530209975.jpeg"
+    },
+    {
+      "community": "Engineering Leadership Meetup - Denmark",
+      "file": "logos/engineering-leadership-denmark.jpeg",
+      "sourcePage": "https://www.meetup.com/engineering-leadership-meetup-denmark/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/a/c/9/3/600_522644179.jpeg"
+    },
+    {
+      "community": "Stockholm Engineering Leadership Meetup",
+      "file": "logos/stockholm-engineering-leadership.jpeg",
+      "sourcePage": "https://www.meetup.com/stockholm-engineering-leadership-meetup/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/b/a/5/c/600_462167708.jpeg"
+    },
+    {
+      "community": "twoHundred CIO Communities",
+      "file": "logos/twohundred-cio.png",
+      "sourcePage": "https://twohundredgroup.com/communities",
+      "sourceUrl": "https://twohundredgroup.com/hs-fs/hubfs/Logo_TwoHundred%20Primary-black-2.png?width=208&height=50&name=Logo_TwoHundred%20Primary-black-2.png"
+    },
+    {
+      "community": "ProductTank Copenhagen",
+      "file": "logos/producttank-copenhagen.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-copenhagen/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/8/5/6/1/600_523954145.jpeg"
+    },
+    {
+      "community": "ProductTank Oslo",
+      "file": "logos/producttank-oslo.png",
+      "sourcePage": "https://www.meetup.com/producttank-oslo/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/c/6/5/b/600_460670779.jpeg"
+    },
+    {
+      "community": "ProductTank Stockholm",
+      "file": "logos/producttank-stockholm.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-stockholm/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/b/c/d/c/600_535428348.jpeg"
+    },
+    {
+      "community": "Tech.Rocks",
+      "file": "logos/tech-rocks.png",
+      "sourcePage": "https://www.tech.rocks/",
+      "sourceUrl": "https://cdn.prod.website-files.com/66474882e2090eab5c4a2568/666bff6bbf3a7442cece4481_logo_tech_rocks-256x256.png"
+    },
+    {
+      "community": "FrenchCPO",
+      "file": "logos/frenchcpo.png",
+      "sourcePage": "https://www.frenchproduit.com/french-cpo/",
+      "sourceUrl": "https://www.frenchproduit.com/images/192-favicon_img.png?_wwcv=144"
+    },
+    {
+      "community": "FrenchProduit Paris",
+      "file": "logos/frenchproduit-paris.jpeg",
+      "sourcePage": "https://www.meetup.com/frenchproduit-paris/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/c/4/1/9/600_503270201.jpeg"
+    },
+    {
+      "community": "FrenchProduit Lille",
+      "file": "logos/frenchproduit-lille.jpeg",
+      "sourcePage": "https://www.meetup.com/frenchproduit-lille/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/c/3/2/9/600_503269961.jpeg"
+    },
+    {
+      "community": "FrenchProduit Lyon",
+      "file": "logos/frenchproduit-lyon.jpeg",
+      "sourcePage": "https://www.meetup.com/frenchproduit-rhonealpes/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/c/2/2/3/600_503269699.jpeg"
+    },
+    {
+      "community": "CTO Circle (Madrid and Barcelona)",
+      "file": "logos/cto-circle-spain.svg",
+      "sourcePage": "https://joinctocircle.com/",
+      "sourceUrl": "https://joinctocircle.com/favicon.svg"
+    },
+    {
+      "community": "ProductTank Madrid",
+      "file": "logos/producttank-madrid.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-madrid/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/8/0/d/0/600_523712976.jpeg"
+    },
+    {
+      "community": "ProductTank Barcelona",
+      "file": "logos/producttank-barcelona.png",
+      "sourcePage": "https://www.meetup.com/producttank-barcelona/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/e/7/b/2/600_495599314.jpeg"
+    },
+    {
+      "community": "ProductTank Valencia",
+      "file": "logos/producttank-valencia.png",
+      "sourcePage": "https://www.meetup.com/producttank-valencia/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/b/0/3/b/600_478665115.jpeg"
+    },
+    {
+      "community": "CTO Mastermind",
+      "file": "logos/cto-mastermind.png",
+      "sourcePage": "https://ctomastermind.it/",
+      "sourceUrl": "https://ctomastermind.it/wp-content/uploads/2025/06/cropped-Tech-Mastermind-Symbol-192x192.png"
+    },
+    {
+      "community": "ProductTank Milano",
+      "file": "logos/producttank-milano.png",
+      "sourcePage": "https://www.meetup.com/producttank-milano/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/1/c/9/4/600_464707316.jpeg"
+    },
+    {
+      "community": "ProductTank Bologna",
+      "file": "logos/producttank-bologna.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-bologna/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/a/6/5/6/600_526002582.jpeg"
+    },
+    {
+      "community": "Codemotion CTO Communities (Spain and Italy)",
+      "file": "logos/codemotion.svg",
+      "sourcePage": "https://www.codemotion.com/magazine/",
+      "sourceUrl": "https://www.codemotion.com/magazine/wp-content/uploads/2023/09/codemotion-logo.svg"
+    },
+    {
+      "community": "TGO 鲲鹏会",
+      "file": "logos/tgo-kunpenghui.svg",
+      "sourcePage": "https://tgo.network/about/",
+      "sourceUrl": "https://tgo.network/favicon.svg"
+    },
+    {
+      "community": "PMTalk",
+      "file": "logos/pmtalk.ico",
+      "sourcePage": "https://web.pmtalk.club/",
+      "sourceUrl": "https://web.pmtalk.club/assets/img/logo.ICO"
+    },
+    {
+      "community": "Everyone Is a Product Manager (人人都是产品经理)",
+      "file": "logos/woshipm.png",
+      "sourcePage": "https://www.woshipm.com/about",
+      "sourceUrl": "https://image.woshipm.com/wp-files/2024/11/MbtEc6Z3dCX41DLY4alz.png"
+    },
+    {
+      "community": "CTOtalk",
+      "file": "logos/ctotalk.svg",
+      "sourcePage": "https://ctotalk.in/",
+      "sourceUrl": "https://ctotalk.in/hubfs/cto-talk-logo.svg"
+    },
+    {
+      "community": "CIO Association (India)",
+      "file": "logos/cio-association-india.png",
+      "sourcePage": "https://www.thecioassociation.com/about-us",
+      "sourceUrl": "https://www.thecioassociation.com/Logo_1-removebg-preview.png"
+    },
+    {
+      "community": "The Product Folks (India)",
+      "file": "logos/the-product-folks.png",
+      "sourcePage": "https://www.theproductfolks.com/",
+      "sourceUrl": "https://cdn.prod.website-files.com/684bf67a638fa90c1418ba7c/69c6177e98964feb15e2fa09_TPF%20Webclip.png"
+    },
+    {
+      "community": "ProductTank Bengaluru",
+      "file": "logos/producttank-bengaluru.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-bengaluru/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/2/8/3/600_530340643.jpeg"
+    },
+    {
+      "community": "ProductTank Delhi NCR",
+      "file": "logos/producttank-delhi.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-delhi/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/b/a/a/c/600_516527788.jpeg"
+    },
+    {
+      "community": "Japan CTO Association (日本CTO協会)",
+      "file": "logos/japan-cto-association.png",
+      "sourcePage": "https://cto-a.org/",
+      "sourceUrl": "https://storage.googleapis.com/production-os-assets/assets/6a543e41-2452-4257-bb74-6280b2daa925"
+    },
+    {
+      "community": "Japan CPO Association (日本CPO協会)",
+      "file": "logos/japan-cpo-association.svg",
+      "sourcePage": "https://japancpo.org/",
+      "sourceUrl": "https://japancpo.org/common/svg/header-logo.svg"
+    },
+    {
+      "community": "ProductTank Tokyo",
+      "file": "logos/producttank-tokyo.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-tokyo/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/5/9/3/4/600_498982836.jpeg"
+    },
+    {
+      "community": "TRIBU Tech LATAM",
+      "file": "logos/tribu-tech-latam.svg",
+      "sourcePage": "https://landing1.tribulatam.com/",
+      "sourceUrl": "https://landing1.tribulatam.com/tribu-logo.svg?dpl=dpl_CZZ5qgLFcq2ZScnAVwGshUJRN63g"
+    },
+    {
+      "community": "ProductTank São Paulo",
+      "file": "logos/producttank-sao-paulo.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-sao-paulo/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/c/8/b/c/600_523071388.jpeg"
+    },
+    {
+      "community": "ProductTank Mexico City",
+      "file": "logos/producttank-mexico-city.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-mexico-city/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/c/1/8/3/600_523069539.jpeg"
+    },
+    {
+      "community": "ProductTank Buenos Aires",
+      "file": "logos/producttank-buenos-aires.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-buenos-aires/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/2/5/b/c/600_486429660.jpeg"
+    },
+    {
+      "community": "Tech Leadership Meetup (Cape Town)",
+      "file": "logos/tech-leadership-cape-town.jpeg",
+      "sourcePage": "https://www.meetup.com/tech-leadership-meetup-cape-town/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/c/b/b/6/600_533152150.jpeg"
+    },
+    {
+      "community": "CIO–CxO Digital Leadership Forum",
+      "file": "logos/cio-cxo-africa.png",
+      "sourcePage": "https://www.cio-cxo.africa/",
+      "sourceUrl": "https://www.cio-cxo.africa/images/cio-logo.png"
+    },
+    {
+      "community": "ProductDive Africa Community",
+      "file": "logos/productdive-africa.png",
+      "sourcePage": "https://productdive.com/community/",
+      "sourceUrl": "https://productdive.com/wp-content/uploads/2019/09/PD-Logo_Stack-e1568225094663.png"
+    },
+    {
+      "community": "Prdkt+ (Egypt and MENA)",
+      "file": "logos/prdkt-plus.png",
+      "sourcePage": "https://www.prdkt.plus/",
+      "sourceUrl": "https://www.prdkt.plus/assets/prdkt-logo-blue-BVpefp2_.png"
+    },
+    {
+      "community": "ProductTank Lagos",
+      "file": "logos/producttank-lagos.png",
+      "sourcePage": "https://www.meetup.com/producttank-lagos/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/a/7/3/c/600_467682812.jpeg"
+    },
+    {
+      "community": "ProductTank Nairobi",
+      "file": "logos/producttank-nairobi.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-nairobi/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/9/e/8/2/600_473980578.jpeg"
+    },
+    {
+      "community": "LeadDev Meetup Athens",
+      "file": "logos/leaddev-athens.jpeg",
+      "sourcePage": "https://www.meetup.com/athens-new-technology-meetup-group/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/3/f/4/4/600_530716196.jpeg"
+    },
+    {
+      "community": "ProductTank Serbia",
+      "file": "logos/producttank-serbia.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-belgrade/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/6/6/7/a/600_525026234.jpeg"
+    },
+    {
+      "community": "ProductTank Zagreb",
+      "file": "logos/producttank-zagreb.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-zagreb/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/c/0/b/600_501723083.jpeg"
+    },
+    {
+      "community": "ProductTank Slovenia",
+      "file": "logos/producttank-slovenia.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-slovenia/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/d/0/3/a/600_525593306.jpeg"
+    },
+    {
+      "community": "ProductTank Sofia",
+      "file": "logos/producttank-sofia.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-sofia/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/8/9/d/9/600_500315289.jpeg"
+    },
+    {
+      "community": "ProductTank Bucharest",
+      "file": "logos/producttank-bucharest.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-bucharest/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/d/c/2/f/600_529736367.jpeg"
+    },
+    {
+      "community": "ProductTank Athens",
+      "file": "logos/producttank-athens.png",
+      "sourcePage": "https://www.meetup.com/producttank-athens/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/8/8/2/4/600_468334852.jpeg"
+    },
+    {
+      "community": "Dubai Software Engineering Management Group",
+      "file": "logos/dubai-engineering-management.jpeg",
+      "sourcePage": "https://www.meetup.com/dubai-software-engineering-management-group/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/3/8/4/6/600_513134406.jpeg"
+    },
+    {
+      "community": "CIOs Israeli Forum",
+      "file": "logos/cios-israeli-forum.jpeg",
+      "sourcePage": "https://www.meetup.com/microsoft-data-leaders-club/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/9/8/8/2/600_529599042.jpeg"
+    },
+    {
+      "community": "ProductTank Dubai",
+      "file": "logos/producttank-dubai.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-dubai/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/c/4/5/f/600_513230271.jpeg"
+    },
+    {
+      "community": "ProductTank Riyadh",
+      "file": "logos/producttank-riyadh.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-riyadh/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/3/4/e/1/600_510853537.jpeg"
+    },
+    {
+      "community": "ProductTank Casablanca",
+      "file": "logos/producttank-casablanca.jpeg",
+      "sourcePage": "https://www.meetup.com/producttank-casablanca/",
+      "sourceUrl": "https://secure.meetupstatic.com/photos/event/7/b/9/b/600_517771643.jpeg"
+    },
+    {
+      "community": "Heapspace",
+      "file": "logos/heapspace.png",
+      "sourcePage": "https://heapspace.rs/",
+      "sourceUrl": "https://heapspace.rs/wp-content/uploads/2026/01/cropped-favicon-32x32-1-192x192.png"
+    },
+    {
+      "community": "Bosnia Agile",
+      "file": "logos/bosnia-agile.jpeg",
+      "sourcePage": "https://www.linkedin.com/company/bosnia-agile/",
+      "sourceUrl": "https://media.licdn.com/dms/image/v2/D4E3DAQGzp5tjhl2VTg/image-scale_191_1128/B4EZ0WAdtAIsAc-/0/1774190714202/bosnia_agile_cover?e=2147483647&t=UgDGY31SOiROsO2m-5Z_qtQFn5bDrB-aunB-bwg_mrM&v=beta"
+    },
+    {
+      "community": "ProdACT",
+      "file": "logos/prodact.png",
+      "sourcePage": "https://prodact.mk/",
+      "sourceUrl": "https://prodact.mk/",
+      "note": "Original embedded PNG from the footer img with alt=\"ProdACT\" and class=\"footer-logo\"."
+    }
+  ]
+}

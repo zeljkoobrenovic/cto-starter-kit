@@ -378,8 +378,9 @@
             margin-bottom: 4px;
         }
 
-        .tab button {
+        .tab .tablinks {
             position: relative;
+            box-sizing: border-box;
             background-color: transparent;
             border: none;
             outline: none;
@@ -395,17 +396,17 @@
             transition: color 0.18s ease, background-color 0.18s ease, border-color 0.18s ease;
         }
 
-        .tab button:hover {
+        .tab .tablinks:hover {
             color: #1f2937;
             background-color: #f3f4f6;
         }
 
-        .tab button:focus-visible {
+        .tab .tablinks:focus-visible {
             outline: 2px solid #1d4ed8;
             outline-offset: -2px;
         }
 
-        .tab button.active {
+        .tab .tablinks.active {
             color: #1d4ed8;
             border-bottom-color: #1d4ed8;
         }
@@ -433,7 +434,7 @@
                 gap: 0;
             }
 
-            .tab button {
+            .tab .tablinks {
                 width: 100%;
                 text-align: left;
                 margin-bottom: 0;
@@ -441,7 +442,7 @@
                 border-radius: 0;
             }
 
-            .tab button.active {
+            .tab .tablinks.active {
                 border-bottom-color: #1d4ed8;
             }
 
@@ -455,12 +456,9 @@
         const START_TAB_STORAGE_KEY = 'productscape:start-active-tab';
 
         function initTab() {
-            let tabName = '';
-            if (typeof apps !== 'undefined' && apps.length > 0) {
-                tabName = 'tab_content_' + apps[0].tab;
-            }
+            let tabName = contentTabs.length ? 'tab_content_' + contentTabs[0].tab : '';
             const storedTab = window.sessionStorage.getItem(START_TAB_STORAGE_KEY);
-            if (storedTab && document.getElementById('tab_' + storedTab)) {
+            if (storedTab && contentTabs.some(tab => 'tab_content_' + tab.tab === storedTab)) {
                 tabName = storedTab;
             }
             if (tabName) {
@@ -507,10 +505,19 @@
     console.log('start page template: v9 (image stays visible when collapsed)');
     const data = ${apps};
     const apps = data.apps;
+    const contentTabs = apps.filter(tab => !tab.link);
     const config = data.config;
     let tabNavigationHtml = '';
     let tabContentHtml = '';
     apps.forEach(tab => {
+        if (tab.link) {
+            const link = document.createElement('a');
+            link.className = 'tablinks';
+            link.href = tab.link;
+            link.innerHTML = tab.tab;
+            tabNavigationHtml += link.outerHTML;
+            return;
+        }
         tabNavigationHtml += '<button id="tab_tab_content_' + tab.tab + '" class="tablinks" onclick="openTab(\'tab_content_' + tab.tab + '\')">' + tab.tab + '</button>';
 
         tabContentHtml += '<div id="tab_content_' + tab.tab + '" class="tabcontent" style="margin: 0; padding: 6px;">' +
@@ -526,7 +533,7 @@
 <script>
     // Pre-build a flat list with pre-lowercased fields for search
     const allApps = [];
-    apps.forEach(tab => {
+    contentTabs.forEach(tab => {
 
         (tab.apps || []).forEach(group => {
             (group.apps || []).forEach(app => {
@@ -740,7 +747,7 @@
     }
 
     function renderTabs() {
-        apps.forEach(tab => {
+        contentTabs.forEach(tab => {
             let html = '';
             (tab.apps || []).forEach(group => {
                 html += '<div class="group">';

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Engineering &amp; Product Executive Communities</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+    <style>
+        body {
+            font-family: Ubuntu, Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+            margin: 40px;
+            text-align: center;
+        }
+
+        [hidden] {
+            display: none !important;
+        }
+
+        a {
+            color: #5009DC;
+            text-decoration: none;
+        }
+
+        a:focus-visible, button:focus-visible, input:focus-visible, [tabindex]:focus-visible {
+            outline: 2px solid #1d4ed8;
+            outline-offset: 3px;
+        }
+
+        .site-logo {
+            height: auto;
+            max-height: 164px;
+            max-width: calc(100% - 42px);
+            border: 1px solid lightgrey;
+            border-radius: 20px;
+            padding: 12px;
+            margin: 8px;
+        }
+
+        h1 {
+            margin: 0 8px 8px;
+            font-size: 40px;
+            font-weight: normal;
+            color: #8c8c8c;
+        }
+
+        .subtitle {
+            margin: 0 0 16px;
+            font-size: 20px;
+            color: #8c8c8c;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .search-container {
+            margin-bottom: 30px;
+            color: grey;
+        }
+
+        #filter_all {
+            box-sizing: border-box;
+            font-family: inherit;
+            font-size: 16px;
+            height: 36px;
+            width: 320px;
+            max-width: 100%;
+            padding: 4px 8px;
+        }
+
+        #summary_all {
+            display: block;
+            margin-top: 8px;
+            font-size: 14px;
+        }
+
+        .tab {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            border-bottom: 1px solid #e5e7eb;
+            margin-bottom: 4px;
+        }
+
+        .tab button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 11px 16px;
+            margin-bottom: -1px;
+            font-family: inherit;
+            font-size: 14px;
+            font-weight: 500;
+            color: #6b7280;
+            border-bottom: 3px solid transparent;
+            border-radius: 8px 8px 0 0;
+            transition: color 0.18s ease, background-color 0.18s ease, border-color 0.18s ease;
+        }
+
+        .tab button:hover {
+            color: #1f2937;
+            background-color: #f3f4f6;
+        }
+
+        .tab button.active {
+            color: #1d4ed8;
+            border-bottom-color: #1d4ed8;
+        }
+
+        .community-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 300px));
+            justify-content: center;
+            gap: 20px;
+            margin: 20px auto;
+            max-width: 1280px;
+        }
+
+        .app {
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            padding: 18px 14px;
+            border: 1px solid lightgrey;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 12px;
+            background-color: white;
+            overflow-wrap: anywhere;
+        }
+
+        .name {
+            font-weight: bold;
+            font-size: 18px;
+            min-height: 44px;
+            margin: 0;
+            color: #5009DC;
+        }
+
+        .source {
+            font-size: 11px;
+            color: grey;
+            margin: 3px;
+        }
+
+        .icon {
+            width: 140px;
+            height: 140px;
+            object-fit: contain;
+            border-radius: 4px;
+            margin: 26px auto 20px;
+        }
+
+        .icon-fallback {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f8f8f8;
+            color: #6b7280;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .description {
+            font-size: 14px;
+            color: #666;
+            margin: 3px;
+            line-height: 21px;
+        }
+
+        .community-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 6px;
+            margin-top: auto;
+            padding-top: 18px;
+        }
+
+        .community-link {
+            font-size: 12px;
+            line-height: 1.4;
+            border: 1px solid #c9b6f5;
+            border-radius: 12px;
+            padding: 4px 12px;
+            background-color: white;
+            transition: background-color 0.15s ease, color 0.15s ease;
+        }
+
+        .community-link:hover {
+            background-color: #5009DC;
+            color: white;
+        }
+
+        .empty-state {
+            margin: 36px 0;
+            color: grey;
+        }
+
+        @media (max-width: 720px) {
+            body {
+                margin: 20px 16px;
+            }
+
+            .tab {
+                flex-direction: column;
+                gap: 0;
+            }
+
+            .tab button {
+                width: 100%;
+                text-align: left;
+                margin-bottom: 0;
+                border-bottom: 3px solid #e5e7eb;
+                border-radius: 0;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .community-grid {
+                grid-template-columns: minmax(0, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <a href="../start/index.html"><img class="site-logo" src="icons/logo.png" alt="CTO Starter Kit"></a>
+    <h1>Engineering &amp; Product Executive Communities</h1>
+    <p class="subtitle">Connect with peer communities for CTOs, CPOs, and senior engineering and product leaders.</p>
+    <a class="back-link" href="../start/index.html">&larr; CTO Starter Kit</a>
+</header>
+<main>
+    <div class="search-container" id="search_container" role="search" aria-label="Find communities">
+        <input id="filter_all" type="search" placeholder="search communities..." aria-label="Search all communities">
+        <span id="summary_all" role="status" aria-live="polite"></span>
+    </div>
+    <div class="tab" id="tab_navigation" role="tablist" aria-label="Regions"></div>
+    <div id="tab_content"></div>
+    <section id="content_search" aria-label="Search results" hidden></section>
+    <noscript><p class="empty-state">Enable JavaScript to browse the communities directory.</p></noscript>
+</main>
+<script>
+    const data = {"metadata": {"title": "Engineering & Product Executive Communities", "description": "Connect with peer communities for CTOs, CPOs, and senior engineering and product leaders."}, "regions": [{"name": "Global", "communities": [{"name": "CTO Craft", "logo": "logos/cto-craft.jpeg", "description": "CTO Craft is a global community for technology leaders to connect, share insights, and collaborate on best practices in technology management and innovation.", "links": [{"name": "Website", "url": "https://ctocraft.com/"}, {"name": "LinkedIn", "url": "https://www.linkedin.com/company/ctocraft/posts/?feedView=all"}]}, {"name": "Engineering Leadership Community (ELC)", "logo": "logos/elc.jpeg", "description": "A curated community for engineering leaders to share practices, build peer relationships, and develop their leadership skills through roundtables, executive events, mentoring, and one-to-one conversations.", "links": [{"name": "Website", "url": "https://elc.community/"}, {"name": "LinkedIn", "url": "https://www.linkedin.com/company/sfelc/posts/?feedView=all"}, {"name": "Local Chapters", "url": "https://elc.community/public/clubs"}]}, {"name": "Aurora Live", "logo": "logos/aurora-live.jpeg", "description": "Aurora Live is a global community for technology leaders to connect, share insights, and collaborate on best practices in technology management and innovation.", "links": [{"name": "Website", "url": "https://www.auroralive.com/"}, {"name": "LinkedIn", "url": "https://www.linkedin.com/showcase/aurora-live/posts/?feedView=all"}]}, {"name": "7CTOs", "logo": "logos/7ctos.jpeg", "description": "A global peer community for CTOs and senior engineering leaders, combining facilitated peer groups, executive coaching, and leadership development. Members work through the organizational, team, and business challenges of leading technology functions.", "links": [{"name": "Website", "url": "https://7ctos.com/"}, {"name": "Membership FAQ", "url": "https://7ctos.com/faq/"}]}, {"name": "alphalist", "logo": "logos/alphalist.svg", "description": "A curated community for CTOs, VPs of Engineering, and other senior technology leaders. Members exchange practical advice through Slack, private events, referrals, and discussions about technology strategy and scaling engineering organizations.", "links": [{"name": "Website", "url": "https://alphalist.com/"}]}, {"name": "CTO Academy Community", "logo": "logos/cto-academy.png", "description": "A global peer network for technology leaders, with Slack discussions, expert sessions, coaching drop-ins, and meetups. Community access is included with the Digital MBA, with an alumni membership available afterward.", "links": [{"name": "Community and Membership", "url": "https://cto.academy/membership/"}]}, {"name": "CTO Forum", "logo": "logos/cto-forum.png", "description": "A membership organization for senior technology and business executives, offering executive roundtables, leadership programs, and peer exchange on technology strategy and organizational transformation.", "links": [{"name": "Website", "url": "https://www.ctoforum.org/"}, {"name": "Membership", "url": "https://www.ctoforum.org/membership/"}]}, {"name": "Rands Leadership Slack", "logo": "logos/rands-leadership-slack.png", "description": "An online Slack community for experienced, new, and aspiring leaders, with a strong engineering management focus. Engineering executives can exchange ideas with peers; joining requires an email introduction and acceptance of the community code of conduct.", "links": [{"name": "Community and Joining Instructions", "url": "https://randsinrepose.com/welcome-to-rands-leadership-slack/"}]}, {"name": "CPO Track", "logo": "logos/cpo-track.jpeg", "description": "A membership community for CPOs, VPs, directors, and heads of product with team leadership responsibilities. Members across the UK, USA, Europe, and UAE connect through private discussions, networking events, peer mentoring, and executive career development.", "links": [{"name": "Website", "url": "https://www.cpotrack.co.uk/"}, {"name": "Membership", "url": "https://www.cpotrack.co.uk/membership"}]}, {"name": "CPO Connect", "logo": "logos/cpo-connect.png", "description": "A free, private WhatsApp community for Chief Product Officers, VPs, and heads of product. Membership is vetted for seniority, with peer discussions covering product leadership, AI, mentoring, executive opportunities, and shared challenges.", "links": [{"name": "Community and Membership", "url": "https://cpoconnect.club/"}]}, {"name": "CPO Circles", "logo": "logos/cpo-circles.png", "description": "A curated global community for Chief Product Officers and leaders performing the CPO role. Members connect through a private Slack community, virtual meetups, peer knowledge sharing, and product leadership coaching.", "links": [{"name": "About and Membership", "url": "https://members.cpo.social/about/"}]}, {"name": "CPO Studio", "logo": "logos/cpo-studio.webp", "description": "A curated membership for CPOs, VPs, general managers, and director-level product leaders. Facilitated peer groups, private Slack and WhatsApp discussions, and expert roundtables help members work through product strategy, executive alignment, and organizational challenges.", "links": [{"name": "Community and Membership", "url": "https://cpo.studio/"}]}, {"name": "Mind the Product Leaders", "logo": "logos/mind-the-product.png", "description": "A community program specifically for product directors, VPs, CPOs, and executives shaping product practices. The free program connects leadership peers through global meetups and leadership content, with additional premium conference forums.", "links": [{"name": "Product Leadership Program", "url": "https://www.mindtheproduct.com/"}]}, {"name": "Products That Count", "logo": "logos/products-that-count.svg", "description": "A global nonprofit product community connecting product leaders and Chief Product Officers through executive roundtables, peer learning, and leadership resources. Its programs also support the development of product teams across organizations.", "links": [{"name": "Website", "url": "https://productsthatcount.org/"}, {"name": "Corporate Alliance", "url": "https://productsthatcount.org/corporate-alliance/"}]}, {"name": "Women In Product", "logo": "logos/women-in-product.png", "description": "A community supporting women and nonbinary product professionals, with dedicated programming for senior leaders and executives. Product directors, VPs, and CPOs can connect through executive dinners, networking events, and leadership discussions.", "links": [{"name": "Executive Community and Events", "url": "https://womenpm.org/executives/"}]}, {"name": "Chief Architect Network", "logo": "logos/can.jpeg", "description": "A global nonprofit peer network for chief architects leading architecture practices at Fortune 500 scale. Members exchange architecture and leadership practices through local chapters, quarterly meetings, and member-led topic discussions.", "links": [{"name": "Website", "url": "https://chiefarchitectnetwork.com/"}, {"name": "LinkedIn", "url": "https://www.linkedin.com/groups/14014240"}]}, {"name": "Chief Architect Forum", "logo": "logos/caf.png", "description": "A global nonprofit peer network for chief architects and senior technology leaders. Members share architecture and leadership practices through local chapters, quarterly meetings, and member-led topic discussions.", "links": [{"name": "Website", "url": "https://chiefarchitectforum.org/"}, {"name": "LinkedIn", "url": "https://www.linkedin.com/groups/14014240"}]}]}, {"name": "US", "communities": [{"name": "Seattle CTO Club", "logo": "logos/seattle-cto-club.jpg", "description": "An invitation-only peer community for CTOs, engineering VPs, and senior technologists in the Greater Seattle area. Members share practical advice through monthly meetings and private discussions, with confidentiality and a no-selling rule supporting candid exchanges.", "links": [{"name": "About and Membership", "url": "https://seattlectoclub.com/about/"}]}, {"name": "Austin CTO Club", "logo": "logos/austin-cto-club.svg", "description": "An Austin, Texas peer group for senior technical leaders who manage technical teams. Members shape meeting discussions, exchange leadership experiences, and stay connected through Slack and an email list; joining requires approval through the group's Meetup page.", "links": [{"name": "Community and Membership", "url": "https://atx.ctoclubs.net/"}, {"name": "Meetup and Events", "url": "https://www.meetup.com/austin-cto-club/"}]}, {"name": "Atlanta CTO Club", "logo": "logos/atlanta-cto-club.webp", "description": "An independent, invitation-only community for Atlanta-area CTOs and senior engineering leaders responsible for building technology products. Monthly breakfasts and a private Slack community support candid discussions about hiring, scaling, architecture, and technical leadership; members are expected to participate actively.", "links": [{"name": "Community and Membership", "url": "https://www.atlantacto.org/"}], "logoBackground": "#181818"}, {"name": "Chicago CTO Group", "logo": "logos/chicago-cto-group.png", "description": "A Chicago, Illinois network for technology leaders to exchange knowledge, help one another, and strengthen the local technology community. Members value confidential peer discussions, collaboration, community outreach, and support for diversity in STEM, with online exchange and local gatherings.", "links": [{"name": "Website", "url": "https://www.chicagoctogroup.org/"}, {"name": "Membership", "url": "https://www.chicagoctogroup.org/join"}]}, {"name": "South Florida CTO Club", "logo": "logos/south-florida-cto-club.png", "description": "A South Florida peer community for executive technology leaders building and scaling proprietary software products with teams of at least ten engineers. Curated local events connect members to discuss technical and leadership challenges; sponsors cover membership and event costs for qualified members.", "links": [{"name": "Community, Events, and Membership", "url": "https://southflcto.org/"}]}, {"name": "Boston Product Executives Forum (BPMA)", "logo": "logos/boston-product-management-association.jpg", "description": "A Boston-area peer forum within the Boston Product Management Association for product management and product marketing executives. Monthly facilitated roundtables address product strategy, team leadership, and organizational challenges. Membership requires paid BPMA membership and seniority eligibility: VP-level leaders, or directors at companies with more than 1,000 employees.", "links": [{"name": "Forum and Eligibility", "url": "https://www.bostonproducts.org/page/product-executives-forum"}, {"name": "BPMA Membership", "url": "https://www.bostonproducts.org/membership-benefits"}]}, {"name": "Product Hive (Utah)", "logo": "logos/product-hive.png", "description": "A Utah-based nonprofit community for product managers, designers, and product builders, with local gatherings around Salt Lake City and Utah County. Speaker sessions, company visits, mentoring, and Slack discussions connect practitioners and experienced leaders across career stages.", "links": [{"name": "Community", "url": "https://producthive.org/"}, {"name": "Local Events and Updates", "url": "https://www.linkedin.com/company/producthive/"}]}, {"name": "ELC New York City", "logo": "logos/elc.png", "description": "The New York City chapter of the Engineering Leadership Community. Local meetups and roundtables connect engineering leaders to discuss team management, organizational change, and the impact of AI on engineering practice, with events hosted by companies in New York.", "links": [{"name": "Local Chapter and Events", "url": "https://elc.community/public/clubs/new-york-city-3po/overview"}]}, {"name": "ELC Seattle", "logo": "logos/elc.png", "description": "The Seattle-area chapter of the Engineering Leadership Community, with in-person events in Seattle and Bellevue, Washington. Local engineering leaders exchange experiences about people management, technology careers, AI adoption, and the changing responsibilities of engineering leadership.", "links": [{"name": "Local Chapter and Events", "url": "https://elc.community/public/clubs/seattle-kcr/overview"}]}, {"name": "ELC South Bay / Silicon Valley", "logo": "logos/elc.png", "description": "The South Bay and Silicon Valley chapter of the Engineering Leadership Community, serving engineering leaders around Mountain View and Palo Alto, California. Local meetups combine roundtable discussions and peer coaching on leadership challenges, including leading teams through AI-driven change.", "links": [{"name": "Local Chapter and Events", "url": "https://elc.community/public/clubs/south-bay-or-silicon-valley-v2n/overview"}]}]}, {"name": "Benelux", "communities": [{"name": "CTO Connect", "logo": "logos/cto-connect.jpeg", "description": "CTO Connect is a community for technology leaders in the Netherlands to share knowledge, network, and collaborate on innovative solutions.", "links": [{"name": "Website", "url": "https://www.ctoconnect.nl"}, {"name": "LinkedIn", "url": "https://www.linkedin.com/company/cto-connect-community/posts/?feedView=all"}]}, {"name": "Engineering Excellence", "logo": "logos/engineering-excellence.jpeg", "description": "Engineering Excellence is a community for technology leaders in the Netherlands to share knowledge, network, and collaborate on innovative solutions.", "links": [{"name": "LinkedIn", "url": "https://www.linkedin.com/company/engineering-excellence-nl/posts/?feedView=all"}]}, {"name": "Group Effort", "logo": "logos/group-effort.jpg", "description": "A Netherlands-based leadership community serving technology companies across Europe. Separate peer groups for CTOs, engineering VPs and directors, CPOs, and heads of product combine facilitated discussions, coaching, and events around shared leadership challenges.", "links": [{"name": "Peer Groups and Membership", "url": "https://groupeffort.nl/"}]}, {"name": "Engineering Leadership", "logo": "logos/engineering-leadership.jpeg", "description": "A Utrecht-based meetup for CTOs, engineering managers, tech leads, and people developing their leadership skills. Members share practical experiences with team leadership, organizational design, communication, and changes in engineering work, including AI adoption.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/engineeringleadershipnl/"}]}, {"name": "iSAQB Software Architecture Community NL", "logo": "logos/isaqb-nl.jpeg", "description": "A Dutch peer community for software architects and people interested in architecture, with meetups in Utrecht. Free evening events are held in English and cover practical architecture decisions, cloud systems, and emerging topics such as AI platforms; certification is not required to join.", "links": [{"name": "Community and Events", "url": "https://www.meetup.com/isaqb-nl/"}]}, {"name": "TNO Fast Track CTO Unconferences", "logo": "logos/tno-fast-track.png", "description": "A peer network for deeptech CTOs and technical founders built through TNO Fast Track's curated CTO Unconferences, with sessions in cities including Groningen, Eindhoven, and Enschede. Participants set the agenda and exchange practical lessons about technology development, roadmaps, and scaling; participation is curated for each event.", "links": [{"name": "CTO Unconference Format", "url": "https://fasttrack.tno.nl/en/cto-unconference-mxt/"}, {"name": "Deeptech CTO Community", "url": "https://fasttrack.tno.nl/en/hello-tomorrow-event/"}]}, {"name": "Techleap Community", "logo": "logos/techleap.svg", "description": "An invitation-only membership community for founders and senior leaders building technology companies with a meaningful operational presence in the Netherlands. Members connect through dinners, gatherings, and expert sessions; an additional Circles program offers recurring small peer advisory groups for leaders facing similar challenges.", "links": [{"name": "Membership", "url": "https://techleap.community/connect/"}, {"name": "Peer Circles", "url": "https://techleap.community/circles/"}]}, {"name": "Product Meetup Amsterdam", "logo": "logos/product-meetup-amsterdam.jpeg", "description": "An Amsterdam community for product managers and product leaders, with talks, workshops, and peer conversations. Its Product Leadership Circle is a separate invitation-only format for heads of product, directors, VPs, and CPOs to discuss organizational pressure, difficult decisions, and leadership challenges.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/product-meetup-amsterdam/"}, {"name": "Leadership Circle and Updates", "url": "https://www.linkedin.com/company/product-meetup-amsterdam/"}]}, {"name": "Amsterdam Product Club", "logo": "logos/amsterdam-product-club.jpg", "description": "A local community for product managers, founders, and product builders in Amsterdam. Members connect online and through in-person meetups, company visits, and product discussions to exchange practical experiences, develop their craft, and build a peer support network.", "links": [{"name": "Community and Events", "url": "https://www.amsterdamproductclub.com/"}]}, {"name": "ProductTank Amsterdam (AMS)", "logo": "logos/producttank-amsterdam.jpeg", "description": "The Amsterdam chapter of ProductTank, connecting product professionals across the Netherlands through speaker sessions and local networking. Topics include product leadership, design, data, user experience, and building successful products; the community welcomes product practitioners beyond executive roles.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-ams/"}, {"name": "Newsletter", "url": "https://producttankams.substack.com/"}]}, {"name": "ProductTank Rotterdam", "logo": "logos/producttank-rotterdam.jpeg", "description": "A Rotterdam community for product managers, product owners, designers, and other product professionals. Informal in-person meetups and product coffees focus on exchanging real experiences, discussing practical product challenges, and building relationships with people from local companies.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-rotterdam/"}, {"name": "Community Manifesto", "url": "https://hilton.org.uk/blog/producttank-manifesto"}]}, {"name": "CTO Club Belgium", "logo": "logos/cto-club-belgium.png", "description": "A Belgian peer network for CTOs and engineering leaders responsible for building software at the core of their business. Monthly gatherings, company visits and an online community help members discuss leadership, technology decisions and shared challenges. The club is an initiative of SoftwareCaptains.", "links": [{"name": "Community and Events", "url": "https://ctoclub.be/"}]}, {"name": "The Product Consortium", "logo": "logos/product-consortium.png", "description": "A Belgian product community with Ghent as its home base and gatherings across Belgium. Product managers, CPOs, founders, designers and engineers exchange practical experiences through speaker sessions and networking. Free community gatherings are complemented by paid membership options for workshops, resources and a member directory.", "links": [{"name": "Community and Events", "url": "https://www.theproductconsortium.com/"}, {"name": "Membership", "url": "https://www.theproductconsortium.com/membership"}]}, {"name": "Gapstars CTO Club", "logo": "logos/gapstars-cto-club.png", "description": "A curated peer community for CTOs and senior technology leaders in software, SaaS and agency businesses. Its core network spans the Netherlands, Belgium and Luxembourg, with many gatherings in Amsterdam and additional London events. Small groups, meetups and dedicated group chats focus on members' real leadership and scaling challenges.", "links": [{"name": "Community and Events", "url": "https://gapstars.net/tech/cto-club/"}]}, {"name": "Lux Tech Community", "logo": "logos/lux-tech-community.jpeg", "description": "A Luxembourg community created by Agile Partner and KYU Solutions for CTOs, IT managers, architects and tech leads. Its focus is peer support for software architecture, cloud platforms, team organization and technology decisions. The organizers describe online and in-person formats shaped by members' practical questions.", "links": [{"name": "Community and Updates", "url": "https://www.linkedin.com/showcase/lux-tech-community/"}]}, {"name": "ProductTank Luxembourg City", "logo": "logos/producttank-luxembourg.jpeg", "description": "The Luxembourg City chapter of ProductTank, connecting local product managers and other product professionals through talks, networking and shared experiences. Discussions cover product design, development, business models, metrics and user experience. The group welcomes people from established companies and early-stage technology businesses.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-luxembourg/"}]}]}, {"name": "Scand", "communities": [{"name": "Engineering Leadership Meetup - Denmark", "logo": "logos/engineering-leadership-denmark.jpeg", "description": "A Copenhagen community in Denmark for engineering managers, team leads, directors and VPs. Members share knowledge, seek guidance and support one another through leadership challenges. In-person meetups explore topics suggested by the community, with an emphasis on inclusive discussion across backgrounds and experience levels.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/engineering-leadership-meetup-denmark/"}]}, {"name": "Stockholm Engineering Leadership Meetup", "logo": "logos/stockholm-engineering-leadership.jpeg", "description": "A Stockholm community in Sweden for existing and aspiring engineering leaders. Meetups explore effective leadership, developing people and creating healthy engineering cultures. Members exchange ideas and practical experiences with peers from organizations where product and technology are central to the business.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/stockholm-engineering-leadership-meetup/"}]}, {"name": "twoHundred CIO Communities", "logo": "logos/twohundred-cio.png", "description": "An invitation-only network for senior technology and digital leaders at large enterprises. Local CIO communities and events include Copenhagen in Denmark, Oslo in Norway and Stockholm in Sweden, within a wider Nordic network. Curated forums and roundtables bring CIOs, CTOs and CDOs together to discuss strategy, innovation and transformation.", "links": [{"name": "Community and Events", "url": "https://twohundredgroup.com/communities-cio-twohundred"}]}, {"name": "ProductTank Copenhagen", "logo": "logos/producttank-copenhagen.jpeg", "description": "The Copenhagen chapter of ProductTank connects Denmark's local product community through speaker sessions, practical discussions and networking. Topics include product design, development, management, business models, metrics and user experience. Members come from companies of different sizes, including early-stage technology businesses.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-copenhagen/"}]}, {"name": "ProductTank Oslo", "logo": "logos/producttank-oslo.png", "description": "A local ProductTank community in Oslo, Norway, for product managers and other people building products. Guest talks and networking support peer exchange on product design, development, management, metrics and user experience. The group welcomes participants from established organizations and early-stage technology businesses.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-oslo/"}]}, {"name": "ProductTank Stockholm", "logo": "logos/producttank-stockholm.jpeg", "description": "The Stockholm chapter of ProductTank brings Sweden's local product professionals together for talks and informal networking. Members exchange experiences with product design, development, management, business models and user experience. Its events welcome people from organizations of different sizes and stages.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-stockholm/"}]}]}, {"name": "DE", "communities": [{"name": "CTO Roundtable Berlin", "logo": "logos/cto-roundtable-berlin.jpeg", "description": "A Berlin peer meetup for CTOs, VPs of Engineering, IT managers and people moving into software leadership. Roundtable discussions give members a place to compare approaches to hiring, team development, technology strategy and the day-to-day responsibilities of leading software organizations.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/cto-roundtable-berlin/"}]}, {"name": "Isar Tech Leaders Community", "logo": "logos/isar-tech-leaders.svg", "description": "A Munich community for heads of engineering, directors, VPs and CTOs, formerly known as CTO Community Munich. Small roundtables focus on scaling teams, engineering culture and leadership challenges, with occasional larger meetups. Members continue their conversations and share resources through a community Slack.", "links": [{"name": "Community and Events", "url": "https://isartechleaders.com/"}]}, {"name": "ProductTank Berlin", "logo": "logos/producttank-berlin.jpeg", "description": "The Berlin chapter of ProductTank brings together product managers, product owners and related professionals for local talks and peer exchange. Speakers range from experienced product leaders to first-time presenters, sharing practical lessons about building products, changing product roles and new ways of working.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-berlin/"}]}, {"name": "ProductTank Hamburg", "logo": "logos/producttank-hamburg.jpeg", "description": "A Hamburg ProductTank community for people working across product roles. Local guest talks and networking explore product discovery, design, development, management, business models and user experience. Meetups provide a regular setting to exchange practical experiences with peers from the city's product teams.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-hamburg/"}]}, {"name": "ProductTank Munich", "logo": "logos/producttank-munich.jpeg", "description": "The Munich chapter of ProductTank connects product managers and other product professionals through guest talks and local networking. Members compare experiences with product design, development, management, metrics and user experience. The community welcomes companies of different sizes, including early-stage technology businesses.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-munich/"}]}]}, {"name": "FR", "communities": [{"name": "Tech.Rocks", "logo": "logos/tech-rocks.png", "description": "A French community for CTOs and technology leaders, with meetups and other gatherings in Paris. Members exchange leadership experiences through peer events, practical resources and mentoring. Regular community meetings are complemented by membership programs and a summit focused on technology strategy and organizational growth.", "links": [{"name": "Community and Events", "url": "https://www.tech.rocks/"}]}, {"name": "FrenchCPO", "logo": "logos/frenchcpo.png", "description": "A French product executive community within FrenchProduit for current or former CPOs and executive-level VPs. Members share advice on product strategy, organization, staffing and running larger product divisions. Admission requires a recommendation from an existing member, eligibility checks and a community vote.", "links": [{"name": "Community and Membership", "url": "https://www.frenchproduit.com/french-cpo/"}, {"name": "LinkedIn", "url": "https://www.linkedin.com/company/frenchcpo/"}]}, {"name": "FrenchProduit Paris", "logo": "logos/frenchproduit-paris.jpeg", "description": "The Paris chapter of FrenchProduit, formerly LPCx Paris, connects people building digital products. Local meetups welcome product managers, owners, designers, marketers, operations specialists and leaders. Members share practical experiences through talks and networking, with a wider FrenchProduit Slack community available through its application process.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/frenchproduit-paris/"}]}, {"name": "FrenchProduit Lille", "logo": "logos/frenchproduit-lille.jpeg", "description": "A FrenchProduit chapter in Lille for the local digital product community, formerly LPCx Lille. Meetups connect product managers, owners, designers, marketers, operations specialists and leaders through talks, workshops and peer conversations. The group also shares recordings and links to the wider FrenchProduit community.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/frenchproduit-lille/"}]}, {"name": "FrenchProduit Lyon", "logo": "logos/frenchproduit-lyon.jpeg", "description": "The Lyon chapter of FrenchProduit brings together people working in digital product organizations, including product managers, owners, designers, marketers and leaders. Local talks, questions and networking explore practical product and design challenges. Members can also connect through the wider FrenchProduit community.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/frenchproduit-rhonealpes/"}]}]}, {"name": "ES", "communities": [{"name": "CTO Circle (Madrid and Barcelona)", "logo": "logos/cto-circle-spain.svg", "description": "The Madrid and Barcelona gatherings of CTO Circle connect local CTOs, engineering VPs and technical founders in Spain. The wider international community offers private Slack discussions, peer matching and events in other locations. Membership is free and applications are reviewed for relevant technology leadership experience.", "links": [{"name": "Community and Events", "url": "https://joinctocircle.com/"}]}, {"name": "Codemotion CTO Community Spain", "logo": "logos/codemotion.svg", "description": "Codemotion's Spanish peer community for CTOs, IT directors, engineering managers and technical team leaders responsible for development teams. Members share experiences, build leadership skills and join dedicated community activities. Access requires an application reviewed by the organizers, with membership focused on people already in technology management roles.", "links": [{"name": "Community and Events", "url": "https://community-es.codemotion.it/comunidad/cto"}]}, {"name": "ProductTank Madrid", "logo": "logos/producttank-madrid.jpeg", "description": "The Madrid chapter of ProductTank connects local product managers and other product professionals through guest talks and informal networking. Members exchange experiences with product design, development, management, business models, metrics and user experience. The group welcomes established companies and early-stage technology businesses.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-madrid/"}]}, {"name": "ProductTank Barcelona", "logo": "logos/producttank-barcelona.png", "description": "A local ProductTank community in Barcelona for product managers and people working on digital products. Guest talks and networking provide opportunities to compare experiences with product design, development, management and user experience. Participants come from both established companies and early-stage technology businesses.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-barcelona/"}]}, {"name": "ProductTank Valencia", "logo": "logos/producttank-valencia.png", "description": "The Valencia chapter of ProductTank brings local product professionals together for guest talks and peer conversations. Discussions cover product design, development, management, business models, metrics and user experience. The community welcomes people from companies of different sizes, including early-stage technology businesses.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-valencia/"}]}]}, {"name": "IT", "communities": [{"name": "CTO Mastermind", "logo": "logos/cto-mastermind.png", "description": "An Italian community for CTOs, engineering managers and other technology leaders, with access by application. Members exchange experiences and practical advice through a selective peer network, roundtables and leadership events. The community also publishes interviews and briefings about technology strategy, leadership and innovation.", "links": [{"name": "Community and Events", "url": "https://ctomastermind.it/"}]}, {"name": "Codemotion CTO Community Italy", "logo": "logos/codemotion.svg", "description": "Codemotion's Italian peer community for CTOs, IT directors, heads of engineering and technical team leaders managing development teams. Members connect through dedicated events, a community Telegram group and leadership resources. Applications are reviewed to keep discussions relevant to people already working in technology management.", "links": [{"name": "Community and Events", "url": "https://community-it.codemotion.it/community/cto"}]}, {"name": "ProductTank Milano", "logo": "logos/producttank-milano.png", "description": "The Milan chapter of ProductTank connects local product managers and other product professionals through talks, networking and shared experiences. Topics include product design, development, management, business models, metrics and user experience. The community welcomes participants from established organizations and early-stage technology businesses.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-milano/"}]}, {"name": "ProductTank Bologna", "logo": "logos/producttank-bologna.jpeg", "description": "A ProductTank community in Bologna for people involved in product management and development. Local guest talks and networking support peer exchange on product design, business models, metrics and user experience. The group welcomes participants from companies of different sizes, including early-stage technology businesses.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-bologna/"}]}]}, {"name": "UK", "communities": [{"name": "UK IT Leaders", "logo": "logos/uk-it-leaders.svg", "description": "A peer community for CIOs, CTOs and senior technology leaders across the UK. Members exchange advice through private discussions, a networking app, regional roundtable dinners and community gatherings in cities including London, Birmingham, Manchester and York. Community membership is intended for industry peers rather than vendors or sales representatives.", "links": [{"name": "Community and Events", "url": "https://sales-filter.com/"}, {"name": "LinkedIn", "url": "https://www.linkedin.com/company/uk-it-leaders/"}]}, {"name": "London Tech Leaders", "logo": "logos/london-tech-leaders.svg", "description": "A London community for CTOs, CIOs, engineering VPs and directors, and heads of data, AI, platform or security. Members connect through executive dinners, roundtables, talks and Women Tech Leaders events. Membership is by application and has no fee; some events are paid or invitation-only.", "links": [{"name": "Website and Events", "url": "https://londontechleaders.io/"}, {"name": "Membership FAQ", "url": "https://londontechleaders.io/faq/"}]}, {"name": "Branch", "logo": "logos/branch.png", "description": "An invitation-only technology leadership community hosted by Indiespring, with local groups in Manchester, Birmingham and Leeds. Members exchange experiences through small breakfast discussions and a private WhatsApp group between events. Prospective members request an invitation and meet the organizers before joining.", "links": [{"name": "Community and Invitations", "url": "https://branch.indiespring.com/"}]}, {"name": "Tech Leads NW", "logo": "logos/tech-leads-nw.jpeg", "description": "A Manchester meetup for technical and engineering leaders in England's North West. Peer talks and workshops explore leadership, coaching, communication and creating better working environments. The community supports people at different stages of their leadership journey and asks members to follow its code of conduct.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/tech-leads-nw/"}]}, {"name": "ELC London", "logo": "logos/elc.jpeg", "description": "The London chapter of Engineering Leadership Community, bringing local engineering leaders together for in-person meetups and peer exchange. Its chapter page provides London events, a discussion forum and contacts for the local organizing team.", "links": [{"name": "London Chapter and Events", "url": "https://elc.community/public/clubs/london-e39/overview"}]}, {"name": "thoughtbot UK Tech Leaders Meetups", "logo": "logos/thoughtbot.png", "description": "A recurring London meetup for engineering, design, product and business leaders, hosted by thoughtbot. Informal in-person conversations welcome founders, employees and independent professionals. Additional UK gatherings are advertised for Manchester, Bristol, Brighton and Edinburgh; check the organizer's listings for each location's schedule.", "links": [{"name": "Meetups and Registration", "url": "https://thoughtbot.com/london"}, {"name": "UK Meetup Locations", "url": "https://thoughtbot.com/blog/our-uk-tech-leader-tour"}]}, {"name": "Product Pints", "logo": "logos/product-pints.png", "description": "An independent London product community that meets monthly for informal drinks and conversations, typically near Old Street. Product managers, product leaders, founders and newcomers can connect through relaxed networking and a community Slack. Events welcome people at any experience level.", "links": [{"name": "About the Community", "url": "https://productpints.com/about-us/"}, {"name": "Events", "url": "https://productpints.com/events/"}]}, {"name": "ProductTank Manchester", "logo": "logos/producttank-manchester.jpeg", "description": "The Manchester chapter of ProductTank, connecting product managers and leaders across the North of England. Local speaker sessions and networking cover product design, development, management, metrics and user experience. The community welcomes senior product leaders alongside founders, practitioners, designers, engineers and people entering product roles.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-manchester/"}]}, {"name": "ProductTank Bristol", "logo": "logos/producttank-bristol.jpeg", "description": "A local ProductTank community in Bristol for people involved in product management, marketing and development. Regular meetups combine guest talks, workshops and social conversations about product development. The group welcomes product professionals across roles and experience levels.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-bristol/"}]}, {"name": "ProductTank Edinburgh", "logo": "logos/producttank-edinburgh.jpeg", "description": "The Edinburgh chapter of ProductTank, connecting Scotland's local product community through free public meetups. Guest talks and peer discussions cover product design, development, management, marketing, agile practices, metrics and user experience, with time for informal networking. Registration includes a short introduction to help organizers build the community.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttankedi/"}]}, {"name": "ProductTank Cardiff", "logo": "logos/producttank-cardiff.jpeg", "description": "A Cardiff community for people working in, or interested in, product across South Wales. The local ProductTank chapter hosts guest talks and networking around product design, development, management, business models, metrics and user experience. It welcomes participants from across the product profession.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-cardiff/"}]}, {"name": "ProductTank Belfast", "logo": "logos/producttank-belfast.jpeg", "description": "The Belfast chapter of ProductTank, connecting Northern Ireland's product community through talks, peer conversations and social events. Topics include product design, development, management, business models, metrics and user experience. Participants come from companies of different sizes, including early-stage technology businesses.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-belfast/"}]}]}, {"name": "Balkans", "communities": [{"name": "Heapspace", "description": "A technology community based in Belgrade, Serbia that connects software engineers, engineering leaders, and entrepreneurs through meetups, conferences, and informal discussions. Its programs include engineering leadership panels and practical exchanges about software development, technology, and building teams within Serbia's wider technology ecosystem.", "links": [{"name": "Community and Programs", "url": "https://heapspace.rs/"}, {"name": "Meetup and Events", "url": "https://www.meetup.com/heapspace/"}], "logo": "logos/heapspace.png"}, {"name": "LeadDev Meetup Athens", "description": "The Athens, Greece meetup community within the wider LeadDev network. Local engineering managers, directors, CTOs, and software developers exchange leadership practices through talks, discussions, and networking. A dedicated Athens channel in the LeadDev Slack workspace supports conversations between gatherings.", "links": [{"name": "Community and Events", "url": "https://www.meetup.com/athens-new-technology-meetup-group/"}], "logo": "logos/leaddev-athens.jpeg"}, {"name": "Bosnia Agile", "description": "A nonprofit association based in Sarajevo, Bosnia and Herzegovina for software professionals and leaders interested in Agile development and project management. Public events, member education, and the Bosnia Agile Day conference support peer learning about software delivery, team leadership, and organizational change.", "links": [{"name": "Community Updates", "url": "https://www.linkedin.com/company/bosnia-agile/"}, {"name": "Bosnia Agile Day", "url": "https://conference.agile.ba/"}], "logo": "logos/bosnia-agile.jpeg"}, {"name": "ProdACT", "description": "A nonprofit product community in Skopje, North Macedonia for product managers, product owners, and other product builders. Local meetups, workshops, mentoring, and conference programs connect practitioners and product leaders to share experiences, collaborate, and improve how they discover and develop products.", "links": [{"name": "Community and Events", "url": "https://prodact.mk/"}, {"name": "LinkedIn", "url": "https://www.linkedin.com/company/prodact-macedonia/"}], "logo": "logos/prodact.png"}, {"name": "ProductTank Serbia", "description": "A product community based in Belgrade, Serbia and part of the global ProductTank network. Local product managers and other product builders share experiences through guest talks and informal networking about product design, development, business models, metrics, and user experience across startups and established companies.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-belgrade/"}], "logo": "logos/producttank-serbia.jpeg"}, {"name": "ProductTank Zagreb", "description": "The Zagreb, Croatia chapter of the global ProductTank network. Local product managers, product leaders, and other product builders exchange experience through talks and networking about product strategy, design, development, metrics, and user experience, with perspectives from startups and larger organizations.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-zagreb/"}], "logo": "logos/producttank-zagreb.jpeg"}, {"name": "ProductTank Slovenia", "description": "A Ljubljana, Slovenia product community within the global ProductTank network. Product managers and other practitioners from digital, web, and mobile businesses connect through local talks and informal networking about product leadership, business models, metrics, and user experience. Startups and established companies are welcome.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-slovenia/"}], "logo": "logos/producttank-slovenia.jpeg"}, {"name": "ProductTank Sofia", "description": "The Sofia, Bulgaria chapter of the global ProductTank network, welcoming CPOs, product directors, product managers, designers, and business professionals. Local speaker sessions and discussions connect people building digital products to exchange practices in product strategy, design, development, metrics, and user experience.", "links": [{"name": "Community", "url": "https://www.meetup.com/producttank-sofia/"}, {"name": "Events Calendar", "url": "https://luma.com/producttanksofia"}], "logo": "logos/producttank-sofia.jpeg"}, {"name": "ProductTank Bucharest", "description": "A product community in Bucharest, Romania and part of the global ProductTank network. Product managers and other product practitioners exchange ideas through talks, book discussions, and informal gatherings about product design, development, business models, metrics, and user experience across startups and established companies.", "links": [{"name": "Community and Events", "url": "https://www.meetup.com/producttank-bucharest/"}], "logo": "logos/producttank-bucharest.jpeg"}, {"name": "ProductTank Athens", "description": "The Athens, Greece chapter of the global ProductTank network. Local product managers and other product builders connect through guest talks and informal networking to share experience with product design, development, business models, metrics, and user experience. The group welcomes startups and larger companies.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-athens/"}], "logo": "logos/producttank-athens.png"}]}, {"name": "CN", "communities": [{"name": "TGO 鲲鹏会", "description": "A community for CTOs, technology VPs, architects, and technical founders in China, with chapters in Beijing, Shanghai, Shenzhen, Guangzhou, Hangzhou, Chengdu, and other cities. Private peer groups and local learning events support leadership and technology discussions within a wider international network. Membership is reviewed and paid.", "links": [{"name": "Community and Chapters", "url": "https://tgo.network/about/"}, {"name": "Membership FAQ", "url": "https://tgo.network/faq/"}], "logo": "logos/tgo-kunpenghui.svg"}, {"name": "PMTalk", "description": "A Chinese-language community for product professionals in China to exchange questions, articles, resources, and practical product knowledge. Alongside its online discussions, PMTalk lists local WeChat groups for Beijing, Shanghai, Shenzhen, Guangzhou, and Chengdu, helping product practitioners connect with peers in their city.", "links": [{"name": "Community and City Groups", "url": "https://web.pmtalk.club/"}], "logo": "logos/pmtalk.ico"}, {"name": "Everyone Is a Product Manager (人人都是产品经理)", "description": "A Chinese-language learning and discussion community for product managers, product leaders, and operations professionals in China. Online articles, Q&A, lectures, and local sharing events connect practitioners in cities including Beijing, Shanghai, Guangzhou, Shenzhen, Hangzhou, and Chengdu. The platform also offers paid training.", "links": [{"name": "Community", "url": "https://www.woshipm.com/"}, {"name": "About and Local Activities", "url": "https://www.woshipm.com/about"}, {"name": "Q&A Community", "url": "https://wen.woshipm.com/"}], "logo": "logos/woshipm.png"}]}, {"name": "IN", "communities": [{"name": "CTOtalk", "description": "An India-based community for CTOs, engineering heads, and aspiring technology leaders, with gatherings in Chennai and other Indian cities. Speaker sessions and technical deep dives explore architecture, scaling technology, and engineering leadership, alongside an annual summit that brings together senior technology practitioners.", "links": [{"name": "Community and Events", "url": "https://ctotalk.in/"}], "logoBackground": "#181818", "logo": "logos/ctotalk.svg"}, {"name": "CIO Association (India)", "description": "A membership association for CIOs, CTOs, and senior enterprise technology leaders in India, with chapters including Mumbai, Bangalore, and Delhi NCR. Peer meetings and leadership forums cover technology strategy and digital transformation. Membership requires eligibility review and an annual fee; the association also has chapters outside India.", "links": [{"name": "Association, Chapters, and Membership", "url": "https://www.thecioassociation.com/about-us"}], "logo": "logos/cio-association-india.png"}, {"name": "The Product Folks (India)", "description": "Indian gatherings of a volunteer-led global community for product builders, leaders, and founders. Meetups in Bengaluru (Bangalore), Chennai, and Mumbai connect local practitioners, while curated leadership dinners and online discussions offer opportunities for senior product leaders to exchange experiences and build peer relationships.", "links": [{"name": "Community and Local Gatherings", "url": "https://www.theproductfolks.com/"}], "logo": "logos/the-product-folks.png"}, {"name": "ProductTank Bengaluru", "description": "The Bengaluru (Bangalore), India chapter of the global ProductTank network. Local product managers, designers, developers, and founders exchange experiences through talks and informal networking about product design, discovery, development, business models, and metrics. The group welcomes practitioners from startups and larger companies.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-bengaluru/"}], "logo": "logos/producttank-bengaluru.jpeg"}, {"name": "ProductTank Delhi NCR", "description": "A local product community for Delhi NCR, India, including gatherings in Noida. Part of the global ProductTank network, it connects product managers and other product builders through speaker sessions and networking about product leadership, design, development, business models, and user experience.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-delhi/"}], "logo": "logos/producttank-delhi.jpeg"}]}, {"name": "JP", "communities": [{"name": "Japan CTO Association (日本CTO協会)", "description": "A Tokyo-based association connecting CTOs and technology leaders across Japan through peer exchange, working groups, and events about software development and organizational change. Individual membership is free for people with CTO experience and requires review; corporate membership provides additional programs and resources.", "links": [{"name": "Association", "url": "https://cto-a.org/"}, {"name": "Membership", "url": "https://cto-a.org/membership"}], "logo": "logos/japan-cto-association.png"}, {"name": "Japan CPO Association (日本CPO協会)", "description": "A Tokyo-based product leadership association in Japan supporting product managers, designers, and engineers. It brings together CPOs and other product leaders through events, interviews, and research about building software products, sharing practices from Japanese and international teams.", "links": [{"name": "Association and Activities", "url": "https://japancpo.org/"}], "logoBackground": "#181818", "logo": "logos/japan-cpo-association.svg"}, {"name": "ProductTank Tokyo", "description": "The Tokyo, Japan chapter of the global ProductTank network. Local product managers and product builders connect through speaker sessions, casual meetups, and a Slack community to discuss product design, development, metrics, and user experience. The organizer page provides information in both Japanese and English.", "links": [{"name": "Meetup and Community", "url": "https://www.meetup.com/producttank-tokyo/"}], "logo": "logos/producttank-tokyo.jpeg"}]}, {"name": "LATAM", "communities": [{"name": "QUORUM", "logo": "logos/quorum.jpeg", "description": "A private community for CTOs, CIOs, and other senior technology executives in Brazil. Curated online and in-person meetings, dinners, and peer roundtables provide confidential discussions about leadership, enterprise strategy, architecture, and technology decisions. Membership is selective and focused on executive peers.", "links": [{"name": "Community and Membership", "url": "https://quorum-br.com/"}]}, {"name": "TRIBU Tech LATAM", "description": "A regional network for CTOs, CIOs, engineering VPs, and other senior technology leaders across Latin America. Online sessions and curated local peer groups connect leaders in cities including Mexico City, Mexico; Buenos Aires, Argentina; and Bogotá, Colombia. Registration starts free, with paid plans for additional activities.", "links": [{"name": "Community and Local Peer Groups", "url": "https://landing1.tribulatam.com/"}], "logo": "logos/tribu-tech-latam.svg", "logoBackground": "#181818"}, {"name": "ProductTank São Paulo", "description": "The São Paulo, Brazil chapter of the global ProductTank network. Local product managers, creators, and entrepreneurs share experience through talks and informal networking about product discovery, development, business models, metrics, and user experience. The community welcomes people from startups and larger companies.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-sao-paulo/"}], "logo": "logos/producttank-sao-paulo.jpeg"}, {"name": "ProductTank Mexico City", "description": "A local product community in Mexico City, Mexico, also known as ProductTank CDMX. Part of the global ProductTank network, it brings product managers and product builders together for talks and networking about product design, development, strategy, metrics, and user experience.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-mexico-city/"}], "logo": "logos/producttank-mexico-city.jpeg"}, {"name": "ProductTank Buenos Aires", "description": "The Buenos Aires, Argentina chapter of the global ProductTank network. Product managers and other product practitioners connect through local speaker sessions and informal networking to exchange experience with product design, development, business models, metrics, and user experience across startups and established companies.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-buenos-aires/"}], "logo": "logos/producttank-buenos-aires.jpeg"}, {"name": "ProductTank CL (Santiago)", "logo": "logos/producttank-santiago.webp", "description": "A product community in Santiago, Chile, listed as ProductTank CL within the global ProductTank network. Local product managers and other product builders share experiences through guest talks and networking about product design, development, business models, metrics, and user experience.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-santiago/"}]}]}, {"name": "MENA", "communities": [{"name": "Prdkt+ (Egypt and MENA)", "description": "A product community based in Cairo, Egypt, serving the wider Middle East and North Africa (MENA) region. Meetups, webinars, workshops, mentorship, and the MENA Product Summit connect product managers and leaders to exchange practices and develop their product skills.", "links": [{"name": "Community and Events", "url": "https://www.prdkt.plus/"}], "logo": "logos/prdkt-plus.png"}, {"name": "Dubai Software Engineering Management Group", "description": "A Dubai, United Arab Emirates (UAE) peer community for engineering managers, directors, VPs of Engineering, and CTOs. Local meetups combine focused discussions and informal exchanges about hiring, team performance, decision-making, feedback, and software delivery. Members are expected to treat sensitive management discussions with discretion.", "links": [{"name": "Community and Events", "url": "https://www.meetup.com/dubai-software-engineering-management-group/"}], "logo": "logos/dubai-engineering-management.jpeg"}, {"name": "CIOs Israeli Forum", "description": "A Tel Aviv-Yafo, Israel-based community for CIOs and senior technology executives across industries. Meetups, online sessions, and ongoing discussions connect leadership peers to exchange practical approaches to data platforms, building technology teams, AI adoption, and the challenges of leading enterprise technology.", "links": [{"name": "Community and Events", "url": "https://www.meetup.com/microsoft-data-leaders-club/"}], "logo": "logos/cios-israeli-forum.jpeg"}, {"name": "ProductTank Dubai", "description": "A local product community in Dubai, United Arab Emirates (UAE), serving product practitioners across the country. Part of the global ProductTank network, it connects product managers and other product builders through talks and networking about product design, development, business models, metrics, and user experience.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-dubai/"}], "logo": "logos/producttank-dubai.jpeg"}, {"name": "ProductTank Riyadh", "description": "The Riyadh, Saudi Arabia community within the global ProductTank network. Product managers, product leaders, founders, and anyone interested in the craft connect through guest talks and networking to share experiences with product management, leadership, and growth across startups and larger companies.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-riyadh/"}], "logo": "logos/producttank-riyadh.jpeg"}, {"name": "ProductTank Casablanca", "description": "A Casablanca, Morocco product community within the global ProductTank network. Local product managers and other product builders exchange ideas through meetups and practical discussions about product design, development, business models, analytics, and user experience, including how AI changes the work of product teams.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-casablanca/"}], "logo": "logos/producttank-casablanca.jpeg"}]}, {"name": "SSA", "communities": [{"name": "Tech Leadership Meetup (Cape Town)", "description": "A local community in Cape Town, South Africa for experienced, new, and aspiring technology leaders. In-person talks and conversations help engineering managers and CTOs exchange practical approaches to leading teams, hiring, making technical decisions, and handling the organizational challenges of software development.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/tech-leadership-meetup-cape-town/"}], "logo": "logos/tech-leadership-cape-town.jpeg"}, {"name": "CIO–CxO Digital Leadership Forum", "description": "A Kampala, Uganda-based peer forum for CIOs, CTOs, and senior technology leaders, with a wider African focus. Membership connects practitioners through leadership exchanges, executive discussions, research, and programs on digital transformation and responsible technology leadership. Individual and organization-sponsored membership options are available.", "links": [{"name": "Forum and Programs", "url": "https://www.cio-cxo.africa/"}, {"name": "Membership", "url": "https://cio-cxo.africa/membership"}], "logo": "logos/cio-cxo-africa.png"}, {"name": "ProductDive Africa Community", "description": "The African community within ProductDive's wider product management network, with local gatherings in Lagos, Nigeria and participation across the continent. Its free community connects product managers with peers, mentors, and experienced leaders through discussions, shared resources, feedback, and career support.", "links": [{"name": "Africa Community", "url": "https://productdive.com/africa-community/"}], "logo": "logos/productdive-africa.png"}, {"name": "ProductTank Lagos", "description": "The Lagos, Nigeria chapter of the global ProductTank network. Local product managers and other product builders exchange ideas through guest talks and networking about product design, development, business models, metrics, and user experience. The group welcomes practitioners from startups and established companies.", "links": [{"name": "Meetup and Events", "url": "https://www.meetup.com/producttank-lagos/"}], "logo": "logos/producttank-lagos.png"}, {"name": "ProductTank Nairobi", "description": "A local community for product managers, designers, and developers in Nairobi, Kenya. Part of the global ProductTank network, it provides a place to exchange experiences about product management, design, business models, metrics, and user experience through volunteer-organized, free meetups.", "links": [{"name": "Community and Meetup", "url": "https://www.meetup.com/producttank-nairobi/"}], "logo": "logos/producttank-nairobi.jpeg"}]}]};
+    const availableLogos = new Set(["logos/7ctos.jpeg", "logos/7ctos.jpg", "logos/alphalist.svg", "logos/amsterdam-product-club.jpg", "logos/atlanta-cto-club.webp", "logos/aurora-live.jpeg", "logos/austin-cto-club.svg", "logos/bosnia-agile.jpeg", "logos/boston-product-management-association.jpg", "logos/branch.png", "logos/caf.png", "logos/can.jpeg", "logos/chicago-cto-group.png", "logos/cio-association-india.png", "logos/cio-cxo-africa.png", "logos/cios-israeli-forum.jpeg", "logos/codemotion.svg", "logos/cpo-circles.png", "logos/cpo-connect.png", "logos/cpo-studio.webp", "logos/cpo-track.jpeg", "logos/cpo-track.png", "logos/cto-academy.png", "logos/cto-circle-spain.svg", "logos/cto-club-belgium.png", "logos/cto-connect.jpeg", "logos/cto-craft.jpeg", "logos/cto-forum.png", "logos/cto-mastermind.png", "logos/cto-roundtable-berlin.jpeg", "logos/ctotalk.svg", "logos/dubai-engineering-management.jpeg", "logos/elc.jpeg", "logos/elc.png", "logos/engineering-excellence.jpeg", "logos/engineering-leadership-denmark.jpeg", "logos/engineering-leadership.jpeg", "logos/frenchcpo.png", "logos/frenchproduit-lille.jpeg", "logos/frenchproduit-lyon.jpeg", "logos/frenchproduit-paris.jpeg", "logos/gapstars-cto-club.png", "logos/group-effort.jpg", "logos/heapspace.png", "logos/isaqb-nl.jpeg", "logos/isar-tech-leaders.svg", "logos/japan-cpo-association.svg", "logos/japan-cto-association.png", "logos/leaddev-athens.jpeg", "logos/london-tech-leaders.svg", "logos/lux-tech-community.jpeg", "logos/mind-the-product.png", "logos/pmtalk.ico", "logos/prdkt-plus.png", "logos/prodact.png", "logos/product-consortium.png", "logos/product-hive.png", "logos/product-leaders-network.svg", "logos/product-meetup-amsterdam.jpeg", "logos/product-pints.png", "logos/productdive-africa.png", "logos/products-that-count.svg", "logos/producttank-amsterdam.jpeg", "logos/producttank-athens.png", "logos/producttank-barcelona.png", "logos/producttank-belfast.jpeg", "logos/producttank-bengaluru.jpeg", "logos/producttank-berlin.jpeg", "logos/producttank-bologna.jpeg", "logos/producttank-bristol.jpeg", "logos/producttank-bucharest.jpeg", "logos/producttank-buenos-aires.jpeg", "logos/producttank-cardiff.jpeg", "logos/producttank-casablanca.jpeg", "logos/producttank-copenhagen.jpeg", "logos/producttank-delhi.jpeg", "logos/producttank-dubai.jpeg", "logos/producttank-edinburgh.jpeg", "logos/producttank-hamburg.jpeg", "logos/producttank-lagos.png", "logos/producttank-luxembourg.jpeg", "logos/producttank-madrid.jpeg", "logos/producttank-manchester.jpeg", "logos/producttank-mexico-city.jpeg", "logos/producttank-milano.png", "logos/producttank-munich.jpeg", "logos/producttank-nairobi.jpeg", "logos/producttank-oslo.png", "logos/producttank-riyadh.jpeg", "logos/producttank-rotterdam.jpeg", "logos/producttank-santiago.webp", "logos/producttank-sao-paulo.jpeg", "logos/producttank-serbia.jpeg", "logos/producttank-slovenia.jpeg", "logos/producttank-sofia.jpeg", "logos/producttank-stockholm.jpeg", "logos/producttank-tokyo.jpeg", "logos/producttank-valencia.png", "logos/producttank-zagreb.jpeg", "logos/quorum.jpeg", "logos/rands-leadership-slack.png", "logos/seattle-cto-club.jpg", "logos/south-florida-cto-club.png", "logos/stockholm-engineering-leadership.jpeg", "logos/tech-leadership-cape-town.jpeg", "logos/tech-leads-nw.jpeg", "logos/tech-rocks.png", "logos/techleap.svg", "logos/tgo-kunpenghui.svg", "logos/the-product-folks.png", "logos/thoughtbot.png", "logos/tno-fast-track.png", "logos/tribu-tech-latam.svg", "logos/twohundred-cio.png", "logos/uk-it-leaders.svg", "logos/women-in-product.png", "logos/woshipm.png"]);
+    const regions = data.regions || [];
+    const metadata = data.metadata || {};
+    const TAB_STORAGE_KEY = 'cto-starter-kit:communities-active-region';
+    const navigation = document.getElementById('tab_navigation');
+    const content = document.getElementById('tab_content');
+    const searchContent = document.getElementById('content_search');
+    const filter = document.getElementById('filter_all');
+
+    function element(tag, className, text) {
+        const node = document.createElement(tag);
+        node.className = className;
+        if (text !== undefined) node.textContent = text;
+        return node;
+    }
+
+    function renderCommunity(community, regionName) {
+        const card = element('article', 'app');
+        const name = community.name || 'Community';
+        card.append(element('h2', 'name', name));
+
+        const initials = (name.match(/[\p{L}\p{N}]+/gu) || ['C']).slice(0, 3).map(word => word[0]).join('').toUpperCase();
+        const fallback = element('div', 'icon icon-fallback', initials);
+        fallback.setAttribute('aria-hidden', 'true');
+        if (availableLogos.has(community.logo)) {
+            const logo = element('img', 'icon');
+            logo.alt = name + ' logo';
+            if (community.logoBackground) logo.style.backgroundColor = community.logoBackground;
+            logo.addEventListener('error', () => logo.replaceWith(fallback), {once: true});
+            logo.src = community.logo;
+            card.append(logo);
+        } else {
+            card.append(fallback);
+        }
+
+        card.append(element('p', 'description', community.description || ''));
+        const links = element('div', 'community-links');
+        (community.links || []).forEach(link => {
+            if (!link.url) return;
+            const anchor = element('a', 'community-link', link.name || link.url);
+            anchor.href = link.url;
+            anchor.setAttribute('aria-label', name + ': ' + (link.name || link.url));
+            if (metadata.openInNewTab !== false) {
+                anchor.target = '_blank';
+                anchor.rel = 'noopener noreferrer';
+            }
+            links.append(anchor);
+        });
+        card.append(links);
+        return card;
+    }
+
+    function renderCommunities(entries) {
+        if (!entries.length) return element('p', 'empty-state', 'No communities found.');
+        const grid = element('div', 'community-grid');
+        entries.forEach(entry => grid.append(renderCommunity(entry.community, entry.region)));
+        return grid;
+    }
+
+    const allCommunities = [];
+    regions.forEach((region, index) => {
+        const entries = (region.communities || []).map(community => ({
+            community: community,
+            region: region.name || '',
+            searchText: [community.name, community.description, region.name]
+                .concat((community.links || []).map(link => [link.name, link.url].join(' ')))
+                .join(' ').toLowerCase()
+        }));
+        allCommunities.push(...entries);
+
+        const button = element('button', 'tablinks', region.name || 'Region');
+        button.type = 'button';
+        button.id = 'tab_' + index;
+        button.setAttribute('role', 'tab');
+        button.setAttribute('aria-controls', 'region_' + index);
+        button.addEventListener('click', () => openTab(index));
+        navigation.append(button);
+
+        const panel = element('section', 'tabcontent');
+        panel.id = 'region_' + index;
+        panel.setAttribute('role', 'tabpanel');
+        panel.setAttribute('aria-labelledby', button.id);
+        panel.tabIndex = 0;
+        panel.append(renderCommunities(entries));
+        content.append(panel);
+    });
+
+    function openTab(index) {
+        Array.from(navigation.children).forEach((button, buttonIndex) => {
+            const selected = buttonIndex === index;
+            button.classList.toggle('active', selected);
+            button.setAttribute('aria-selected', String(selected));
+            button.tabIndex = selected ? 0 : -1;
+            content.children[buttonIndex].hidden = !selected;
+        });
+        try {
+            sessionStorage.setItem(TAB_STORAGE_KEY, regions[index].name || '');
+        } catch (error) { /* Tabs still work when storage is unavailable. */ }
+    }
+
+    navigation.addEventListener('keydown', event => {
+        const buttons = Array.from(navigation.children);
+        let index = buttons.indexOf(event.target);
+        if (index < 0) return;
+        if (event.key === 'ArrowRight' || event.key === 'ArrowDown') index = (index + 1) % buttons.length;
+        else if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') index = (index - 1 + buttons.length) % buttons.length;
+        else if (event.key === 'Home') index = 0;
+        else if (event.key === 'End') index = buttons.length - 1;
+        else return;
+        event.preventDefault();
+        openTab(index);
+        buttons[index].focus();
+    });
+
+    function update() {
+        const query = filter.value.trim().toLowerCase();
+        const searching = query.length > 0;
+        navigation.hidden = searching || !regions.length;
+        content.hidden = searching;
+        searchContent.hidden = !searching;
+        const matches = searching ? allCommunities.filter(entry => entry.searchText.includes(query)) : [];
+        searchContent.replaceChildren(...(searching ? [renderCommunities(matches)] : []));
+        document.getElementById('summary_all').textContent = searching
+            ? matches.length + ' communit' + (matches.length === 1 ? 'y' : 'ies')
+            : '';
+    }
+
+    if (regions.length) {
+        let selectedIndex = 0;
+        try {
+            const storedRegion = sessionStorage.getItem(TAB_STORAGE_KEY);
+            const storedIndex = regions.findIndex(region => region.name === storedRegion);
+            if (storedIndex >= 0) selectedIndex = storedIndex;
+        } catch (error) { /* Use the first region when storage is unavailable. */ }
+        openTab(selectedIndex);
+    } else {
+        content.append(element('p', 'empty-state', 'No communities available yet.'));
+    }
+    document.getElementById('search_container').hidden = metadata.enableSearch === false;
+    filter.addEventListener('input', update);
+    update();
+</script>
+</body>
+</html>
