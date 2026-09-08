@@ -140,7 +140,7 @@
               "tools": [
                 {
                   "name": "Product Strategy",
-                  "link": "https://zeljkoobrenovic.github.io/productscape/start-packages/overview/index.html",
+                  "link": "https://zeljkoobrenovic.github.io/productscape-examples/start-packages/overview/index.html",
                   "icon": "icons/grounded-product.png"
                 },
                 {
@@ -172,7 +172,7 @@
               "tools": [
                 {
                   "name": "Product Strategy",
-                  "link": "https://zeljkoobrenovic.github.io/productscape/start-packages/overview/index.html",
+                  "link": "https://zeljkoobrenovic.github.io/productscape-examples/start-packages/overview/index.html",
                   "icon": "icons/grounded-product.png"
                 }
               ]
@@ -183,7 +183,7 @@
               "tools": [
                 {
                   "name": "Product Strategy",
-                  "link": "https://zeljkoobrenovic.github.io/productscape/start-packages/overview/index.html",
+                  "link": "https://zeljkoobrenovic.github.io/productscape-examples/start-packages/overview/index.html",
                   "icon": "icons/grounded-product.png"
                 }
               ]
@@ -313,7 +313,13 @@
             {
               "name": "Map how ideas become shipped work",
               "description": "The gap between the official process and the real one is where problems hide.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Next-Gen Operating Model checklist (Team Topologies)",
+                  "link": "https://docs.google.com/document/d/1ztuCy9bukvkGbOht0EoAn54gk1suHtMm0fdHHH7UHmg/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                }
+              ]
             },
             {
               "name": "Understand how work is assigned and prioritized",
@@ -548,7 +554,13 @@
             {
               "name": "Evaluate org structure for execution impediments",
               "description": "Note structural problems now; reorganize only once you understand the people.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Org Chart Problems checklist (Team Topologies)",
+                  "link": "https://docs.google.com/document/d/16l7YG01SgiTamHPGJIxJnkJAjUHLfeendQuX_Gu_NpA/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                }
+              ]
             },
             {
               "name": "Plan next year's org growth",
@@ -829,6 +841,10 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/planning.html"
+            },
+            {
+              "name": "checklist",
+              "link": "https://docs.google.com/document/d/1WvrORiUeXnjQn5tVwEBj_5ncfcneDnJxZh7Hx6oaxx8/edit?usp=sharing"
             }
           ],
           "logo": "images/pexels-calculator-209224.jpg",
@@ -880,6 +896,10 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/measuring-engineering-organizations.html"
+            },
+            {
+              "name": "checklist",
+              "link": "https://docs.google.com/document/d/1zvi1bEsW_6QYj2cZ3o_h0qEpHpx3OxVnjuO5gF09Jek/edit?usp=sharing"
             }
           ],
           "logo": "images/pexels-measuring-tape-5383194.jpg",
@@ -909,7 +929,13 @@
             {
               "name": "Agree one clear goal with the CEO and board, tied to business strategy, and report against it",
               "description": "One legible goal beats a dashboard of engineering internals nobody upstairs can parse.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Systems & Tools checklist: define useful metrics and goals (An Elegant Puzzle)",
+                  "link": "https://docs.google.com/document/d/15bkUsCPh3bZqM94Eqk60m13givO1qdF9JkeAc9RjY1A/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                }
+              ]
             },
             {
               "name": "Review the data weekly; compare month-over-month and quarter-over-quarter trends",
@@ -924,6 +950,10 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/gelling-your-engineering-leadership-team.html"
+            },
+            {
+              "name": "checklist",
+              "link": "https://docs.google.com/document/d/1JaWLkDHHyVqRwtbL5UAl4F3JOrwC-4P-sclzpWDB8To/edit?usp=sharing"
             }
           ],
           "logo": "images/pexels-rowing-3754647.jpg",
@@ -978,6 +1008,10 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/meetings.html"
+            },
+            {
+              "name": "checklist",
+              "link": "https://docs.google.com/document/d/1g42YFA7swaYej7RUuj1guluiDdP0rFmnrcee7egmXNs/edit?usp=sharing"
             }
           ],
           "logo": "images/pexels-metronome-7220729.jpg",
@@ -1016,6 +1050,10 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/internal-communication.html"
+            },
+            {
+              "name": "checklist",
+              "link": "https://docs.google.com/document/d/11UXByupYh3bv26Uy8w48PA9xYaz0_kAUFHaug2bzdNM/edit?usp=sharing"
             }
           ],
           "logo": "images/pexels-megaphone-3851254.jpg",
@@ -1056,6 +1094,10 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/hiring.html"
+            },
+            {
+              "name": "checklist",
+              "link": "https://docs.google.com/document/d/1BoCi_OYTQztyViv5v4Ihs1JhNWoC3WGAbgk7SpYNjCg/edit?usp=sharing"
             }
           ],
           "logo": "images/pexels-join-team-3127883.jpg",
@@ -1063,7 +1105,13 @@
             {
               "name": "Document hiring loops, interview rubrics, and a written leveling framework",
               "description": "Documentation turns hiring from personal heroics into a system others can run.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Careers & Hiring checklist: humane interviews, calibration (An Elegant Puzzle)",
+                  "link": "https://docs.google.com/document/d/1gcZZ2uJJDRgK1TYLaUMPt9fpLFdcRdOjKhPXGc7CVrU/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                }
+              ]
             },
             {
               "name": "Standardize compensation with clear in-band / out-of-band approval rules",
@@ -1099,6 +1147,10 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/engineering-onboarding.html"
+            },
+            {
+              "name": "checklist",
+              "link": "https://docs.google.com/document/d/1A1Fy46QO5WkfWkHk43dJ6BUQbrNPTNT4cCQT3nB0AXk/edit?usp=sharing"
             }
           ],
           "logo": "images/pexels-open-door-8276599.jpg",
@@ -1137,6 +1189,14 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/organizational-values.html"
+            },
+            {
+              "name": "checklist",
+              "link": "https://docs.google.com/document/d/1itV-sxIDhx2G_LF0jrz9HSTmlmn6_8iUsyu17WuV9E0/edit?usp=sharing"
+            },
+            {
+              "name": "standards checklist",
+              "link": "https://docs.google.com/document/d/1YJ_-JPbV2Wa10XQ8X7ZpxFtNERlFKhj5Vt-8tiZEF90/edit?usp=sharing"
             },
             {
               "name": "hidden blocker",
@@ -1181,6 +1241,10 @@
             {
               "name": "guide",
               "link": "https://zeljkoobrenovic.github.io/spec-driven-journals/grounded-engineering-executive/working-with-your-ceo-peers-and-engineering.html"
+            },
+            {
+              "name": "checklist",
+              "link": "https://docs.google.com/document/d/1OGCrlf_0WV8GEc4MscvXGYJ6wRI9F3GIDQX5rXNtqBs/edit?usp=sharing"
             }
           ],
           "logo": "images/pexels-bridge-1485894.jpg",
@@ -1284,7 +1348,13 @@
             {
               "name": "For every delegated area, define how you will independently verify progress",
               "description": "Delegation without verification is not trust — it is abdication.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Systems & Tools checklist: identify your leadership controls (An Elegant Puzzle)",
+                  "link": "https://docs.google.com/document/d/15bkUsCPh3bZqM94Eqk60m13givO1qdF9JkeAc9RjY1A/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                }
+              ]
             },
             {
               "name": "Evaluate decisions on process quality, separately from outcomes — reward good process after bad outcomes",
@@ -1431,39 +1501,106 @@
               "name": "Design team boundaries and target architecture together",
               "how": "Conway's Law",
               "description": "Your org chart will ship itself; design boundaries to produce the architecture you want.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Conway's Law checklist (Team Topologies)",
+                  "link": "https://docs.google.com/document/d/100fN9OHyE6WKuDBeU8jq2HSMvh1VYirjoZdOeXOw3ZE/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                },
+                {
+                  "name": "Team-First Boundaries checklist (Team Topologies)",
+                  "link": "https://docs.google.com/document/d/1dhZkOvXReygHFitsWd8gNx2EbzFllFhBmf0EKpOCtBo/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                }
+              ]
             },
             {
               "name": "Classify every team as stream-aligned, platform, enabling, or complicated-subsystem",
               "description": "Vague 'support' or 'ops' teams accumulate work no one designed them for.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Four Fundamental Team Topologies checklist",
+                  "link": "https://docs.google.com/document/d/131k8dXpDRCaIHwcTXDJQP8O61A50DiMs8IqYkgw0xn0/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                }
+              ]
             },
             {
               "name": "Size teams for cognitive load",
               "how": "5–9 people, one complex domain per team",
               "description": "A team owning more than it can understand slows down every domain it touches.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Organizational Design checklist: size teams deliberately (An Elegant Puzzle)",
+                  "link": "https://docs.google.com/document/d/1F4DkjPvEiPu9bsv0QBFj9yI9BYVeXOvkRRRc1cyApYM/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                },
+                {
+                  "name": "Team-First Thinking checklist: cognitive load (Team Topologies)",
+                  "link": "https://docs.google.com/document/d/1GK7S-AipaWcAVKyD-nwaNcWatkZLri7V6anieixeFcw/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                }
+              ]
             },
             {
               "name": "Write down every team-to-team interaction mode; time-box collaboration, then move to X-as-a-Service",
               "description": "Unbounded collaboration is a smell; stable boundaries should become services.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Team Interaction Modes checklist (Team Topologies)",
+                  "link": "https://docs.google.com/document/d/1mvfciz3TRg6H1DBl4BACafKabSWnpEdCEqN65j0SHvQ/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                },
+                {
+                  "name": "Evolve Team Structures checklist (Team Topologies)",
+                  "link": "https://docs.google.com/document/d/1HMO-GzExN5PEXipNsq18m6cZ1hKDO1sJi3oHkrfx810/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                }
+              ]
             },
             {
               "name": "Diagnose each team's state and apply the matching fix",
               "how": "falling behind → add people; treading water → cut WIP; repaying debt → add time; innovating → keep slack",
               "description": "Each state needs a different intervention; adding people is right for only one of them.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Organizational Design checklist: diagnose each team's state (An Elegant Puzzle)",
+                  "link": "https://docs.google.com/document/d/1F4DkjPvEiPu9bsv0QBFj9yI9BYVeXOvkRRRc1cyApYM/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                }
+              ]
             },
             {
               "name": "Reorganize only for structural problems, and only with a gapless ownership map",
               "description": "Reorgs are expensive; run one only when process and culture levers cannot fix it.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Org Chart Problems checklist (Team Topologies)",
+                  "link": "https://docs.google.com/document/d/16l7YG01SgiTamHPGJIxJnkJAjUHLfeendQuX_Gu_NpA/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                },
+                {
+                  "name": "Systems & Tools checklist: plan an engineering reorg (An Elegant Puzzle)",
+                  "link": "https://docs.google.com/document/d/15bkUsCPh3bZqM94Eqk60m13givO1qdF9JkeAc9RjY1A/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                }
+              ]
             },
             {
               "name": "Refresh succession plans yearly; review team boundaries every few months",
               "description": "Boundaries and key-person risk drift silently; regular review catches both.",
-              "tools": []
+              "tools": [
+                {
+                  "name": "Organizational Design checklist: build succession plans (An Elegant Puzzle)",
+                  "link": "https://docs.google.com/document/d/1F4DkjPvEiPu9bsv0QBFj9yI9BYVeXOvkRRRc1cyApYM/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                },
+                {
+                  "name": "Evolve Team Structures checklist: review and evolve regularly (Team Topologies)",
+                  "link": "https://docs.google.com/document/d/1HMO-GzExN5PEXipNsq18m6cZ1hKDO1sJi3oHkrfx810/edit?usp=sharing",
+                  "icon": "icons/checklist.png"
+                }
+              ]
             }
           ]
         },
@@ -1708,8 +1845,8 @@
           "apps": [
             {
               "name": "Productscape",
-              "link": "https://zeljkoobrenovic.github.io/productscape/start-packages/overview/index.html",
-              "icon": "https://zeljkoobrenovic.github.io/productscape/start-packages/overview/icons/logo.png",
+              "link": "https://zeljkoobrenovic.github.io/productscape-examples/start-packages/overview/index.html",
+              "icon": "https://zeljkoobrenovic.github.io/productscape-examples/start-packages/overview/icons/logo.png",
               "description": "spec-driven, customer-centric, implementation-aware product architecture",
               "source": ""
             }
