@@ -1,0 +1,102 @@
+{
+  "metadata": {
+  },
+  "regions": [
+    {
+      "name": "Global",
+      "communities": [
+        {
+          "name": "CTO Craft",
+          "logo": "logos/cto-craft.jpeg",
+          "description": "CTO Craft is a global community for technology leaders to connect, share insights, and collaborate on best practices in technology management and innovation.",
+          "links": [
+            {
+              "name": "CTO Craft Website",
+              "url": "https://ctocraft.com/"
+            },
+            {
+              "name": "CTO Craft LinkedIn Group",
+              "url": "https://www.linkedin.com/company/ctocraft/posts/?feedView=all"
+            }
+          ]
+        },
+        {
+          "name": "Engineering Leadership Network (ELC)",
+          "logo": "logos/elc.jpeg",
+          "description": "The Engineering Leadership Network (ELC) is a global community for engineering leaders to share knowledge, network, and collaborate on best practices in engineering management and leadership.",
+          "links": [
+            {
+              "name": "Website",
+              "url": "https://elc.community/"
+            },
+            {
+              "name": "LinkedIn",
+              "url": "https://www.linkedin.com/company/sfelc/posts/?feedView=all"
+            }
+          ]
+        },
+        {
+          "name": "Chief Architect Network",
+          "logo": "logos/can.jpeg",
+          "description": "The Engineering Leadership Network (ELC) is a global community for engineering leaders to share knowledge, network, and collaborate on best practices in engineering management and leadership.",
+          "links": [
+            {
+              "name": "Website",
+              "url": "https://chiefarchitectnetwork.com/"
+            },
+            {
+              "name": "LinkedIn",
+              "url": "https://www.linkedin.com/groups/14014240"
+            }
+          ]
+        },
+        {
+          "name": "Aurora Live",
+          "logo": "logos/aurora-live.jpeg",
+          "description": "Aurora Live is a global community for technology leaders to connect, share insights, and collaborate on best practices in technology management and innovation.",
+          "links": [
+            {
+              "name": "Website",
+              "url": "https://www.auroralive.com/"
+            },
+            {
+              "name": "LinkedIn",
+              "url": "https://www.linkedin.com/showcase/aurora-live/posts/?feedView=all"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Netherlands",
+      "communities": [
+        {
+          "name": "CTO Connect",
+          "logo": "logos/cto-connect.jpeg",
+          "description": "CTO Connect is a community for technology leaders in the Netherlands to share knowledge, network, and collaborate on innovative solutions.",
+          "links": [
+            {
+              "name": "Website",
+              "url": "https://www.ctoconnect.nl"
+            },
+            {
+              "name": "LinkedIn",
+              "url": "https://www.linkedin.com/company/cto-connect-community/posts/?feedView=all"
+            }
+          ]
+        },
+        {
+          "name": "Engineering Excellence",
+          "logo": "logos/engineering-excellence.jpeg",
+          "description": "CTO Connect is a community for technology leaders in the Netherlands to share knowledge, network, and collaborate on innovative solutions.",
+          "links": [
+            {
+              "name": "LinkedIn",
+              "url": "https://www.linkedin.com/company/engineering-excellence-nl/posts/?feedView=all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
