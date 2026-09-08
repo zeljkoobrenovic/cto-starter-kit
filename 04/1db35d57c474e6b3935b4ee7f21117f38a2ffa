@@ -1,0 +1,49 @@
+_config/start/apps.json
+  s_3378a559899cb7::t_53c843a51dc8db 1194-1200
+  s_a139fb7b6aec66::t_9c3f74dbebf0ba 932-938
+  s_3378a559899cb7::t_ad2102b8156ef8 1011-1014
+  s_a139fb7b6aec66::t_c2bc04dba62208 1520-1526
+  s_3378a559899cb7::t_05c6ac7ca6e962 1097-1100
+  s_3378a559899cb7::t_b0bf1a2106ab51 899-902
+  s_3378a559899cb7::t_d33874e3fc1e22 953-956
+  s_3378a559899cb7::t_9c0b6f6bf9036b 1053-1056
+  s_3378a559899cb7::t_1a724395321fb1 1193,1244-1247
+  s_a139fb7b6aec66::t_e9fff5bfe43d8b 316-322
+  s_a139fb7b6aec66::t_036d1c65fa0179 1351-1357
+  s_a139fb7b6aec66::t_f93e57bda8b98e 1548-1559
+  s_a139fb7b6aec66::t_9f43ffbc0d8118 1576-1587
+  s_3378a559899cb7::t_fd32a8cc651b9e 1150-1153
+  s_a139fb7b6aec66::t_6d5a896469d2b8 1565-1571
+  s_3378a559899cb7::t_979847d0e1a071 844-847
+  s_a139fb7b6aec66::t_915c8a49d45ace 1532-1543
+  s_a139fb7b6aec66::t_03e9e2f3dc5286 1108-1114
+  s_a139fb7b6aec66::t_f496aec52c54f6 1592-1603
+  s_a139fb7b6aec66::t_a994317f910e79 1504-1515
+  s_a139fb7b6aec66::t_87cb37e5369377 557-563
+docs/start/index.html
+  s_3378a559899cb7::t_258e5d51d3ab94 495
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "041db35d57c474e6b3935b4ee7f21117f38a2ffa",
+  "prompts": {},
+  "sessions": {
+    "s_3378a559899cb7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7cc63be4-9524-4de2-add0-afcf250bb3ae",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Zeljko Obrenovic <zeljkoobrenovic@yahoo.com>"
+    },
+    "s_a139fb7b6aec66": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4156f5e4-d3ed-4952-916f-dd3bacf24b8a",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Zeljko Obrenovic <zeljkoobrenovic@yahoo.com>"
+    }
+  }
+}
